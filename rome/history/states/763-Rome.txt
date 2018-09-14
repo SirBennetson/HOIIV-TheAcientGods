@@ -1,0 +1,27 @@
+state={
+	id=763
+	name="STATE_763" #Rome
+	history={
+		owner = ROR
+		victory_points = {
+			9904 40 
+		}
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 4
+			9904 = {
+				naval_base = 2
+
+			}
+		}
+		add_core_of = ROR
+		
+	}
+	provinces={
+		9904 11846 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+}
