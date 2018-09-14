@@ -1,4 +1,5 @@
 capital = 2
+oob = "ROR_300"
 set_stability = 0.3
 set_war_support = 0.4
 set_technology = {
@@ -35,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = democratic_ideology
 	traits = {
 		scary_clown
 	}
