@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=654
-	name="STATE_654" # Gorno-Altaysk
+	name="#state_654" # Gorno-Altaysk
 	manpower = 153510
 	
-	state_category = wasteland
+	#state_category = wasteland
 
 	history={
 # = SOV

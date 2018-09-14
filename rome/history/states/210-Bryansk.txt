@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=210
-	name="STATE_210" # Nevel
+	name="#state_210" # Nevel
 	manpower = 830133
 	
-	state_category = rural
+	#state_category = rural
 
 	history={
 # = SOV

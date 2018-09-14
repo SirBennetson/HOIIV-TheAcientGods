@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=111
-	name="STATE_111" # Uusimaa
+	name="#state_111" # Uusimaa
 	manpower = 1670190
 	
-	state_category = city
+	#state_category = city
 	
 	history={
 # = FIN

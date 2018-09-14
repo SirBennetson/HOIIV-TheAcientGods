@@ -1,6 +1,6 @@
-state={
+#state={
 	id=523
-	name="STATE_523"
+	name="#state_523"
 
 	history={
 # = AST
@@ -40,5 +40,5 @@ state={
 	}
 	manpower=1077000
 	buildings_max_level_factor=1
-	state_category="rural"
+	#state_category="rural"
 }

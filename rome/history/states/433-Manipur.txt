@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=433
-	name="STATE_433" # Rajasthan
+	name="#state_433" # Rajasthan
 	manpower = 11786000
 	
-	state_category = town
+	#state_category = town
 	
 	
 	resources={

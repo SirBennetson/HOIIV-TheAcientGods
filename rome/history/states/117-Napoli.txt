@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=117
-	name="STATE_117" # Campania
+	name="#state_117" # Campania
 	manpower = 5333611
 	
-	state_category = city
+	#state_category = city
 	resources={
 		aluminium=10 # was: 16
 		steel = 15 # was: 24

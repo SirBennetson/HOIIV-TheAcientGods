@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=618
-	name="STATE_618" # Dzungaria
+	name="#state_618" # Dzungaria
 	manpower = 670800
 
-	state_category = pastoral
+	#state_category = pastoral
 
 	history={
 # = SIK

@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=273
-	name="STATE_273" # Libyan Desert
+	name="#state_273" # Libyan Desert
 	manpower = 42633
 	
-	state_category = wasteland
+	#state_category = wasteland
 	impassable = yes
 
 	history={

@@ -1,6 +1,6 @@
-state={
+#state={
 	id=325
-	name="STATE_325"
+	name="#state_325"
 	resources={
 		tungsten=2.000
 	}
@@ -28,7 +28,7 @@ state={
 
 				}
 				CHI = {
-					transfer_state = PREV
+					transfer_#state = PREV
 
 				}
 
@@ -43,5 +43,5 @@ state={
 	}
 	manpower=10994500
 	buildings_max_level_factor=1.000
-	state_category=town
+	#state_category=town
 }

@@ -1,9 +1,9 @@
 
-state={
+#state={
 	id=140
-	name="STATE_140"
+	name="#state_140"
 	manpower = 1282827
-	state_category = city
+	#state_category = city
 	
 	resources={
 		steel=6 # was: 10

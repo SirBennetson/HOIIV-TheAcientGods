@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=538
-	name="STATE_538" # Central Congo
+	name="#state_538" # Central Congo
 	manpower = 1693974
 	
-	state_category = wasteland
+	#state_category = wasteland
 	resources={
 		rubber=5 # was: 5
 	}

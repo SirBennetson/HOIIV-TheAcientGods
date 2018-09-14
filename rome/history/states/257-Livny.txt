@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=257
-	name="STATE_257" # Tambov
+	name="#state_257" # Tambov
 	manpower = 1779583
 	
-	state_category = rural
+	#state_category = rural
 	
 	resources={
 		chromium=7 # was: 10

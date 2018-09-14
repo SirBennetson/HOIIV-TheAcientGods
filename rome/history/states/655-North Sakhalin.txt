@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=655
-	name="STATE_655"
+	name="#state_655"
 	manpower = 94759
 	
-	state_category = pastoral
+	#state_category = pastoral
 	history={
 # = SOV
 		add_core_of = SOV

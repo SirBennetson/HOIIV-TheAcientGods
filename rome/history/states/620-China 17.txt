@@ -1,6 +1,6 @@
-state={
+#state={
 	id=620
-	name="STATE_620"
+	name="#state_620"
 
 	history={
 # = CHI
@@ -43,5 +43,5 @@ state={
 	}
 	manpower=25541600
 	buildings_max_level_factor=1.000
-	state_category=city
+	#state_category=city
 }

@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=266
-	name="STATE_266" # Tehran
+	name="#state_266" # Tehran
 	manpower = 3446250
 	
-	state_category = town
+	#state_category = town
 
 	history={
 # = PER

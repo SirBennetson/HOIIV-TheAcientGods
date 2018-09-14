@@ -1,13 +1,13 @@
-state={
+#state={
 	id=88 # Krakow
-	name="STATE_88"
+	name="#state_88"
 	manpower = 3692800
 	resources={
 		steel=5 # was: 8
 		oil=3 # was: 4
 	}
 	
-	state_category = large_city
+	#state_category = large_city
 
 	history={
 # = POL

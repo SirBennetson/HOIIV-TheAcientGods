@@ -1,13 +1,13 @@
 
-state={
+#state={
 	id=1
-	name="STATE_1" # Corsica
+	name="#state_1" # Corsica
 	manpower = 322900
 	
-	state_category = town
+	#state_category = town
 
 	history={
-
+		owner = GER
 		victory_points = { 3838 1 }
 		buildings = {
 			infrastructure = 4

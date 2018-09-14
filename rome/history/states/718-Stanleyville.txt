@@ -1,8 +1,8 @@
-state={
+#state={
 	id=718
-	name="STATE_718"
+	name="#state_718"
 	
-	state_category = pastoral
+	#state_category = pastoral
 
 	resources={
 		rubber=5 # was: 6.000

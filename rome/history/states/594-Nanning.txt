@@ -1,9 +1,9 @@
 
-state={
+#state={
 	id=594
-	name="STATE_594"
+	name="#state_594"
 	manpower = 6550000
-	state_category = town
+	#state_category = town
 	resources={
 		tungsten=11 # was: 14
 		steel = 8 # was: 10
@@ -29,7 +29,7 @@ state={
 					NOT = { has_dlc = "Waking the Tiger" }
 				}
 				remove_core_of = GXC
-				CHI = { transfer_state = PREV }
+				CHI = { transfer_#state = PREV }
 			}
 			JAP = {
 				set_province_controller = 1018

@@ -1,13 +1,13 @@
 
-state={
+#state={
 	id=343
-	name="STATE_343" # Afyon
+	name="#state_343" # Afyon
 	manpower = 955763
 	resources={
 		chromium=25 # was: 32
 	}
 	
-	state_category = rural
+	#state_category = rural
 
 	history={
 # = TUR

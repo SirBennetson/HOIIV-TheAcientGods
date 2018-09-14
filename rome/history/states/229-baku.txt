@@ -1,6 +1,6 @@
-state={
+#state={
 	id=229
-	name="STATE_229"
+	name="#state_229"
 	resources={
 		oil=70 # was: 126.000
 	}
@@ -26,5 +26,5 @@ state={
 	}
 	manpower=2881049
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	#state_category=large_town
 }

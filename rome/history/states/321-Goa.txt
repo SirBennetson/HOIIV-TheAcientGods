@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=321
-	name="STATE_321"
+	name="#state_321"
 	manpower = 533952
 
-	state_category = enclave
+	#state_category = enclave
 
 	history={
 # = POR

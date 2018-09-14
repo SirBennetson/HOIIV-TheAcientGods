@@ -1,12 +1,12 @@
-state={
+#state={
 	id=755
-	name="STATE_755"
+	name="#state_755"
 	provinces={
 		2053 2099 7997 10750 10796 10834 10865 12846 12890 13146
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category = pastoral
+	#state_category = pastoral
 	history={
 # = XSM
 		add_core_of = XSM
@@ -26,7 +26,7 @@ state={
 
 				}
 				CHI = {
-					transfer_state = PREV
+					transfer_#state = PREV
 
 				}
 

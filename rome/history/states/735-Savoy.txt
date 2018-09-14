@@ -1,8 +1,8 @@
-state={
+#state={
 	id=735
-	name="STATE_735"
+	name="#state_735"
 
-	state_category = town
+	#state_category = town
 
 	history={
 

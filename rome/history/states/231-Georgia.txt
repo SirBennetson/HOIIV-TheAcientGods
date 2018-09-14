@@ -1,6 +1,6 @@
-state={
+#state={
 	id=231
-	name="STATE_231"
+	name="#state_231"
 
 	history={
 # = SOV
@@ -38,5 +38,5 @@ state={
 	}
 	manpower=2949413
 	buildings_max_level_factor=1.000
-	state_category=town
+	#state_category=town
 }

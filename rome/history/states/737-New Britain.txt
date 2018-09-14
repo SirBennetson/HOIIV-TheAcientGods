@@ -1,6 +1,6 @@
-state={
+#state={
 	id=737
-	name="STATE_737"
+	name="#state_737"
 
 	history={
 # = AST
@@ -33,5 +33,5 @@ state={
 	}
 	manpower=345640
 	buildings_max_level_factor=1
-	state_category="rural"
+	#state_category="rural"
 }

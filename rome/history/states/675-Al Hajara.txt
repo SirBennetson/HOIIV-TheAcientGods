@@ -1,9 +1,9 @@
-state={
+#state={
 	id=675
-	name="STATE_675"
+	name="#state_675"
 	manpower = 122093
 	
-	state_category = wasteland
+	#state_category = wasteland
 
 	history={
 # = IRQ

@@ -1,10 +1,10 @@
 
-state={
+#state={
 	id=143
-	name="STATE_143"
+	name="#state_143"
 	manpower = 280271
 	
-	state_category = rural
+	#state_category = rural
 
 	history={
 # = NOR

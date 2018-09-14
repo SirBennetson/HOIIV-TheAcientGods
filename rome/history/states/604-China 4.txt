@@ -1,6 +1,6 @@
-state={
+#state={
 	id=604
-	name="STATE_604"
+	name="#state_604"
 
 	history={
 # = XSM
@@ -24,7 +24,7 @@ state={
 
 				}
 				CHI = {
-					transfer_state = PREV
+					transfer_#state = PREV
 
 				}
 
@@ -39,5 +39,5 @@ state={
 	}
 	manpower=1196100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	#state_category=rural
 }

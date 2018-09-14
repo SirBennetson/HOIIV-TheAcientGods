@@ -1,11 +1,11 @@
 
-state={
+#state={
 	id=64
-	name="STATE_64"
+	name="#state_64"
 	manpower = 7265029
 	buildings_max_level_factor = 1
 
-	state_category = megalopolis
+	#state_category = megalopolis
 
 
 	history={

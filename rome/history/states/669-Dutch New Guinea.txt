@@ -1,9 +1,9 @@
-state={
+#state={
 	id=669
-	name="STATE_669"
+	name="#state_669"
 	manpower = 314300
 
-	state_category = pastoral
+	#state_category = pastoral
 
 	history= {
 # = INS

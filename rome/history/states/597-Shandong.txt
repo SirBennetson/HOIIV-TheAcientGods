@@ -1,9 +1,9 @@
-state=
+#state=
 {
 	id=597
-	name="STATE_597"
+	name="#state_597"
 	manpower = 38373200
-	state_category = town
+	#state_category = town
 	
 	
 	history=
