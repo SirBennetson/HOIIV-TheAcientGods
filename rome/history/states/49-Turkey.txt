@@ -1,13 +1,13 @@
 
-#state={
+state={
 	id=49
-	name="#state_49" # Ankara
+	name="state_49" # Ankara
 	manpower = 770758
 	resources={
 		chromium=11 # was: 16
 	}
 	
-	#state_category = town
+	state_category = town
 
 	history={
 # = TUR

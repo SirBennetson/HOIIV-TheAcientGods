@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=568
-	name="#state_568" # Krasnoyarsk
+	name="state_568" # Krasnoyarsk
 	manpower = 1726427
 	
-	#state_category = town
+	state_category = town
 
 	history={
 # = SOV

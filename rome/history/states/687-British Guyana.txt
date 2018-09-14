@@ -1,9 +1,9 @@
-#state={
+state={
 	id=687
-	name="#state_687"
+	name="state_687"
 	manpower = 309000
 	
-	#state_category = pastoral
+	state_category = pastoral
 	
 	resources={
 		aluminium=60 # was: 112

@@ -1,7 +1,7 @@
 
-#state={
+state={
 	id=666
-	name="#state_666" # Lappland
+	name="state_666" # Lappland
 	manpower = 415327
 	resources={
 		tungsten=40 # was: 70
@@ -9,7 +9,7 @@
 		chromium = 25 # was: 40
 	}
 	
-	#state_category = rural
+	state_category = rural
 
 	history={
 # = SWE

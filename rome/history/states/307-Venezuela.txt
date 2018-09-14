@@ -1,9 +1,9 @@
 
-#state={
+state={
 	id=307
-	name="#state_307" # Miranda
+	name="state_307" # Miranda
 	
-	#state_category = city
+	state_category = city
 	
 	manpower = 1335010
 	resources={

@@ -1,8 +1,8 @@
-#state={
+state={
 	id=332
-	name="#state_332"
+	name="state_332"
 	
-	#state_category = wasteland
+	state_category = wasteland
 
 	history={
 # = ENG

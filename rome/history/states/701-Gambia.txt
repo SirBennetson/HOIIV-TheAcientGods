@@ -1,9 +1,9 @@
-#state={
+state={
 	id=701
-	name="#state_701"
+	name="state_701"
 	manpower = 199520
 	
-	#state_category = enclave
+	state_category = enclave
 	history={
 # = ENG
 		buildings = {

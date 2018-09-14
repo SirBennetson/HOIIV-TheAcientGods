@@ -1,6 +1,6 @@
-#state={
+state={
 	id=107
-	name="#state_107"
+	name="state_107"
 
 	history={
 # = YUG
@@ -24,5 +24,5 @@
 	}
 	manpower=1864700
 	buildings_max_level_factor=1.000
-	#state_category=large_city
+	state_category=large_city
 }

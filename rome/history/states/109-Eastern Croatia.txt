@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=109
-	name="#state_109" # Croatia
+	name="state_109" # Croatia
 	manpower = 2224400
 	
-	#state_category = large_town
+	state_category = large_town
 
 	history={
 # = YUG

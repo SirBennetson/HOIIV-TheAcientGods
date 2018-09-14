@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=496
-	name="#state_496" # Minas Gerais
+	name="state_496" # Minas Gerais
 	manpower = 4603600
 	
-	#state_category = rural
+	state_category = rural
 	
 	resources={
 		steel=3 # was: 4

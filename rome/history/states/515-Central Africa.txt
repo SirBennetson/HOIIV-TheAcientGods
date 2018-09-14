@@ -1,8 +1,8 @@
-#state={
+state={
 	id=515
-	name="#state_515"
+	name="state_515"
 	
-	#state_category = wasteland
+	state_category = wasteland
 	impassable = yes
 
 	history={

@@ -1,6 +1,6 @@
-#state={
+state={
 	id=716
-	name="#state_716"
+	name="state_716"
 	resources={
 		steel=27.000
 	}
@@ -32,5 +32,5 @@
 	}
 	manpower=10264620
 	buildings_max_level_factor=1.000
-	#state_category=city
+	state_category=city
 }

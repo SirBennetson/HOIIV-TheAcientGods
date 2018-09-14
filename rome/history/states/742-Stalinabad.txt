@@ -1,6 +1,6 @@
-#state={
+state={
 	id=742
-	name="#state_742"
+	name="state_742"
 
 	history={
 # = SOV
@@ -17,5 +17,5 @@
 	}
 	manpower=230000
 	buildings_max_level_factor=1.000
-	#state_category=wasteland
+	state_category=wasteland
 }

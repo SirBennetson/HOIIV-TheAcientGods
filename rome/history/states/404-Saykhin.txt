@@ -1,9 +1,9 @@
-#state={
+state={
 	id=404
-	name="#state_404" # Kzyl Orda
+	name="state_404" # Kzyl Orda
 	manpower = 667036
 	
-	#state_category = wasteland
+	state_category = wasteland
 
 	history={
 # = SOV

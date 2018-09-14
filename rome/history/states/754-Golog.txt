@@ -1,12 +1,12 @@
-#state={
+state={
 	id=754
-	name="#state_754"
+	name="state_754"
 	provinces={
 		1882 4536 4888 7270 10490 10817 11448 12732 12815 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000
-	#state_category = rural
+	state_category = rural
 	history={
 # = XSM
 		add_core_of = XSM
@@ -30,7 +30,7 @@
 
 				}
 				CHI = {
-					transfer_#state = PREV
+					transfer_state = PREV
 
 				}
 			}

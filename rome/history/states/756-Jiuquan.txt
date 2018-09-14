@@ -1,12 +1,12 @@
-#state={
+state={
 	id=756
-	name="#state_756"
+	name="state_756"
 	provinces={
 		1778 2028 4783 5076 7727 7803 7971 8102 10770 10899 12596 12820 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
-	#state_category = wasteland
+	state_category = wasteland
 	history={
 # = XSM
 		add_core_of = XSM
@@ -25,7 +25,7 @@
 
 				}
 				CHI = {
-					transfer_#state = PREV
+					transfer_state = PREV
 
 				}
 

@@ -1,10 +1,10 @@
-#state=
+state=
 {
 	id=457
-	name="#state_457" # Arabian Desert
+	name="state_457" # Arabian Desert
 	manpower = 2194
 	
-	#state_category = wasteland
+	state_category = wasteland
 	
 	history = {
 # = ENG

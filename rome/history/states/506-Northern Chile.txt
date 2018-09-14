@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=506
-	name="#state_506" # Antofagasta
+	name="state_506" # Antofagasta
 	manpower = 283605
 	
-	#state_category = rural
+	state_category = rural
 
 	history={
 # = CHL

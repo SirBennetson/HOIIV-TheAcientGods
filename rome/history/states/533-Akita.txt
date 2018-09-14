@@ -1,9 +1,9 @@
 
-#state={
+state={
 	id=533
-	name="#state_533" # Tohoku
+	name="state_533" # Tohoku
 	manpower = 6575000
-	#state_category = large_city
+	state_category = large_city
 	resources={
 		steel=27 # was: 35
 	}

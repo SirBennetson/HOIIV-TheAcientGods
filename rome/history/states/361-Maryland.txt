@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=361
-	name="#state_361"
+	name="state_361"
 	manpower = 2118394
 	
-	#state_category = city
+	state_category = city
 
 	history={
 # = USA

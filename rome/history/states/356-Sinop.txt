@@ -1,9 +1,9 @@
 
-#state={
+state={
 	id=356
-	name="#state_356" # Kastamonu
+	name="state_356" # Kastamonu
 	manpower = 860589
-	#state_category = rural
+	state_category = rural
 
 	history={
 # = TUR

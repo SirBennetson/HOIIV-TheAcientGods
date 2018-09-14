@@ -1,9 +1,9 @@
 
-#state={
+state={
 	id=504
-	name="#state_504"
+	name="state_504"
 	
-	#state_category = rural
+	state_category = rural
 
 	history={
 # = BRA

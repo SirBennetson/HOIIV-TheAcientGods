@@ -1,6 +1,6 @@
-#state={
+state={
 	id=748
-	name="#state_748"
+	name="state_748"
 	provinces={
 		1010 4141 4325 4431 9939 10763 11972 
 	}
@@ -20,6 +20,6 @@
 		}
 	}
 	manpower=1500000
-	#state_category=pastoral
+	state_category=pastoral
 	buildings_max_level_factor=1.000
 }

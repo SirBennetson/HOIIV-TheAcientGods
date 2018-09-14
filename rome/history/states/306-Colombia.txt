@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=306
-	name="#state_306" # Cundinamarca
+	name="state_306" # Cundinamarca
 	manpower = 4953049
 	
-	#state_category = city
+	state_category = city
 	
 	history={
 # = COL

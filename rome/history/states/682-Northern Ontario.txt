@@ -1,8 +1,8 @@
-#state={
+state={
 	id=682
-	name="#state_682"
+	name="state_682"
 	
-	#state_category = rural
+	state_category = rural
 	
 	resources={
 		steel=8 # was: 12.000

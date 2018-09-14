@@ -1,9 +1,9 @@
-#state={
+state={
 	id=685
-	name="#state_685"
+	name="state_685"
 	manpower = 39467
 	
-	#state_category = enclave
+	state_category = enclave
 
 	history={
 # = USA

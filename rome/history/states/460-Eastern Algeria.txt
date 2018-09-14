@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=460
-	name="#state_460" # Constantine
+	name="state_460" # Constantine
 	manpower = 2343837
 	
-	#state_category = town
+	state_category = town
 
 	history={
 

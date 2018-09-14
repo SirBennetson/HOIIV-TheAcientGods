@@ -1,9 +1,9 @@
 
-#state={
+state={
 	id=127
-	name="#state_127" # Sussex
+	name="state_127" # Sussex
 	manpower = 3193383
-	#state_category = large_city
+	state_category = large_city
 
 	history={
 # = ENG

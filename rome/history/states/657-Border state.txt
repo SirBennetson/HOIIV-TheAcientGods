@@ -1,14 +1,14 @@
 
-#state={
+state={
 	id=657
-	name="#state_657" # Birobidzhan
+	name="state_657" # Birobidzhan
 	manpower = 308380
 	resources={
 		steel=18 # was: 24
 	}
 
 
-	#state_category = pastoral
+	state_category = pastoral
 
 	history={
 # = SOV

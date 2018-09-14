@@ -1,9 +1,9 @@
 
-#state={
+state={
 	id=417
-	name="#state_417" # Hamadan
+	name="state_417" # Hamadan
 	manpower = 796396
-	#state_category = rural
+	state_category = rural
 
 	history={
 # = PER

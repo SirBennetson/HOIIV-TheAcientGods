@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=449
-	name="#state_449" # El Agheila
+	name="state_449" # El Agheila
 	manpower = 40431
 	
-	#state_category = enclave
+	state_category = enclave
 
 	history={
 # = ITA

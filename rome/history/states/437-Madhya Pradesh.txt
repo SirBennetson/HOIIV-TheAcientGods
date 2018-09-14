@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=437
-	name="#state_437" # Indore
+	name="state_437" # Indore
 	manpower = 8402500
 
-	#state_category = rural
+	state_category = rural
 
 	history={
 # = RAJ

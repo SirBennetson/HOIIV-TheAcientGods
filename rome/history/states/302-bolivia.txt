@@ -1,12 +1,12 @@
-#state={
+state={
 	id=302
-	name="#state_302"
+	name="state_302"
 	resources={
 		tungsten=60 # was: 102.000
 		steel=2 # was: 2.000
 	}
 	
-	#state_category = city
+	state_category = city
 
 	history={
 # = BOL

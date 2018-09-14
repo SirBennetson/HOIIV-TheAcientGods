@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=507
-	name="#state_507" # Magallanes
+	name="state_507" # Magallanes
 	manpower = 68693
 	
-	#state_category = pastoral
+	state_category = pastoral
 
 	history={
 # = CHL

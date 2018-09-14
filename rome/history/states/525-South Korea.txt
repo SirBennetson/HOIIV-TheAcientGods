@@ -1,10 +1,10 @@
-#state=
+state=
 {
 	id=525
-	name="#state_525"
+	name="state_525"
 	manpower = 14284105
 	
-	#state_category = town
+	state_category = town
 	history=
 	{
 # = JAP

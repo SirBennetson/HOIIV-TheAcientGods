@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=611
-	name="#state_611" # South Chahar
+	name="state_611" # South Chahar
 	manpower = 1470000
 	
-	#state_category = pastoral
+	state_category = pastoral
 
 	history={
 # = MEN

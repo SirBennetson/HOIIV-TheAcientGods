@@ -1,9 +1,9 @@
 
-#state={
+state={
 	id=280
-	name="#state_280"
+	name="state_280"
 	
-	#state_category = pastoral
+	state_category = pastoral
 
 	history={
 # = BRA

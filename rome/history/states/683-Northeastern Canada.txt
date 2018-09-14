@@ -1,8 +1,8 @@
-#state={
+state={
 	id=683
-	name="#state_683"
+	name="state_683"
 	
-	#state_category = wasteland
+	state_category = wasteland
 	
 	resources={
 		aluminium=7 # was: 8.000

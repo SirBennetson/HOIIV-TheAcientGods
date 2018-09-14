@@ -1,6 +1,6 @@
-#state={
+state={
 	id=601
-	name="#state_601"
+	name="state_601"
 	resources={
 		oil=2.000
 	}
@@ -29,5 +29,5 @@
 	}
 	manpower=368200
 	buildings_max_level_factor=1.000
-	#state_category=wasteland
+	state_category=wasteland
 }

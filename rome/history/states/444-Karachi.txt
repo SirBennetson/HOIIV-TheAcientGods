@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=444
-	name="#state_444" # Baluchistan
+	name="state_444" # Baluchistan
 	manpower = 463500
 	
-	#state_category = wasteland
+	state_category = wasteland
 
 	history={
 # = RAJ

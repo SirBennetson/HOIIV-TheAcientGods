@@ -1,11 +1,11 @@
-#state={
+state={
 	id=317
-	name="#state_317"
+	name="state_317"
 	resources={
 		chromium=1 # was: 1
 	}
 
-	#state_category = town
+	state_category = town
 
 	history={
 # = NIC

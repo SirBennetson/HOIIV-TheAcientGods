@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=345
-	name="#state_345" # Mersin
+	name="state_345" # Mersin
 	manpower = 411798
 
-	#state_category = rural
+	state_category = rural
 
 	history={
 # = TUR

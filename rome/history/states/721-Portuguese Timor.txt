@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=721
-	name="#state_721"
+	name="state_721"
 	manpower = 455604
 	
-	#state_category = pastoral
+	state_category = pastoral
 
 	history={
 # = POR

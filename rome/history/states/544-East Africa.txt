@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=544
-	name="#state_544" #Mozambique
+	name="state_544" #Mozambique
 	manpower = 4125000
 	
-	#state_category = rural
+	state_category = rural
 	
 	history={
 # = POR

@@ -1,10 +1,10 @@
 
-#state={
+state={
 	id=35
-	name="#state_35" # Brabant
+	name="state_35" # Brabant
 	manpower = 1449000
 	
-	#state_category = city
+	state_category = city
 
 	history={
 # = HOL

@@ -1,10 +1,10 @@
-#state=
+state=
 {
 	id=101
-	name="#state_101"
+	name="state_101"
 	manpower = 18000
 	
-	#state_category = wasteland
+	state_category = wasteland
 	
 	history=
 	{

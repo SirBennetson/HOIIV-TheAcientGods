@@ -1,9 +1,9 @@
 
-#state={
+state={
 	id=529
-	name="#state_529" # Chugoku
+	name="state_529" # Chugoku
 	manpower = 5341000
-	#state_category = large_city
+	state_category = large_city
 
 	history={
 # = JAP
