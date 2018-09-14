@@ -1,0 +1,13 @@
+﻿l_english:
+ROR_communism: "People's Republic of Rome"
+ROR_communism_DEF: "The People's Republic of Rome" #For events
+ROR_ADJ: "roman"
+
+ROR_democracy: "Republic of Rome"
+ROR_democracy_DEF: "Republic of Rome" #For events
+ROR_ADJ: "roman"
+
+ROR_fascism: "Roman Empire"
+ROR_fascism_DEF: Roman Empire" #For events
+ROR_ADJ: "roman"
+
