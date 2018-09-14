@@ -1,0 +1,44 @@
+
+state={
+	id=115
+	name="STATE_115"
+
+	history={
+		owner = ITA
+		victory_points = {
+			4159 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 10
+			dockyard = 1
+			10074 = {
+				naval_base = 2
+
+			}
+			7059 = {
+				naval_base = 5
+
+			}
+			4159 = {
+				naval_base = 8
+
+			}
+			4014 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		1009 1156 4014 4159 12047 
+	}
+	manpower=22571
+	buildings_max_level_factor=1.000
+	state_category=city
+}
