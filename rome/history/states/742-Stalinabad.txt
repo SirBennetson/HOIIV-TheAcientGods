@@ -4,7 +4,7 @@ state={
 
 	history={
 # = SOV
-		buildings = {
+		#buildings = {
 			infrastructure = 1
 
 		}
@@ -16,6 +16,6 @@ state={
 		4542 7224 8027 10417 12218 12250 12430 12805 
 	}
 	manpower=230000
-	buildings_max_level_factor=1.000
+	#buildings_max_level_factor=1.000
 	state_category=wasteland
 }

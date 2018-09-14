@@ -9,7 +9,7 @@ state={
 # = SOV
 		add_core_of = SOV
 		add_claim_by = JAP
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			air_base = 1
 		}

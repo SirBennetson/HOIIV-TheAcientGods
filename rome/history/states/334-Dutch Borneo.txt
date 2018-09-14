@@ -16,7 +16,7 @@ state= {
 			10237 1 
 		}
 
-		buildings = {
+		#buildings = {
 			infrastructure = 2
 			10237 = {
 				naval_base = 3

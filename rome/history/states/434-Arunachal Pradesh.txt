@@ -11,7 +11,7 @@ state={
 
 	history={
 # = RAJ
-		buildings = {
+		#buildings = {
 			infrastructure = 1
 		}
 

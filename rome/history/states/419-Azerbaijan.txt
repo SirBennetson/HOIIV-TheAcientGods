@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	history={
 # = PER
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 		}
 		victory_points = {

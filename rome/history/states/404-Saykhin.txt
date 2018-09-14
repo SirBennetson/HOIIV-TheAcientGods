@@ -7,7 +7,7 @@ state={
 
 	history={
 # = SOV
-		buildings = {
+		#buildings = {
 			infrastructure = 1
 		}
 		add_core_of = SOV

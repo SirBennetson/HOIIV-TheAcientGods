@@ -13,7 +13,7 @@ state={
 
 	history={
 # = NOR
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			air_base = 1
 			192 = {

@@ -7,7 +7,7 @@ state={
 
 	history={
 # = FIN
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			9140 = {
 				naval_base = 1

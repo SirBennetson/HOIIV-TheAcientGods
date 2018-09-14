@@ -14,7 +14,7 @@ state={
 
 	history={
 # = SOV
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			industrial_complex = 3
 
@@ -25,7 +25,7 @@ state={
 		add_core_of = SOV
 		#add_core_of = KAZ
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				industrial_complex = 4
 			}
 		}

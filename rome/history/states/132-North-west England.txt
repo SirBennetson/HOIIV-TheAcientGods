@@ -19,7 +19,7 @@ state= {
 			6318 5 
 		}
 		
-		buildings = {
+		#buildings = {
 			infrastructure = 8
 			arms_factory = 1
 			industrial_complex = 1
@@ -31,7 +31,7 @@ state= {
 		}
 		add_core_of = ENG
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				dockyard = 4
 				industrial_complex = 2
 			}

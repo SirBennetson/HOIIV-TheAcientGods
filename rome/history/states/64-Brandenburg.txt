@@ -3,7 +3,7 @@ state={
 	id=64
 	name="state_64"
 	manpower = 7265029
-	buildings_max_level_factor = 1
+	#buildings_max_level_factor = 1
 
 	state_category = megalopolis
 
@@ -16,7 +16,7 @@ state={
 		victory_points = {
 			3522 5 
 		}
-		buildings = {
+		#buildings = {
 			infrastructure = 8
 			arms_factory = 5
 			industrial_complex = 4
@@ -27,7 +27,7 @@ state={
 		add_core_of = GER
 
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				air_base = 10
 				anti_air_building = 5
 				arms_factory = 10

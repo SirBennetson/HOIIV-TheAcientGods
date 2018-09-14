@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			11506 50 
 		}
-		buildings = {
+		#buildings = {
 			infrastructure = 8
 			arms_factory = 3
 			industrial_complex = 4
@@ -20,7 +20,7 @@ state={
 		}
 		add_core_of = FRA
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				arms_factory = 4
 				industrial_complex = 6
 			}

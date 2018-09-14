@@ -9,7 +9,7 @@ state=
 	
 	history = {
 # = LIT
-		buildings = {
+		#buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			3288 = {

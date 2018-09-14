@@ -11,7 +11,7 @@ state={
 	}
 	history={
 # = FIN
-		buildings = {
+		#buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}

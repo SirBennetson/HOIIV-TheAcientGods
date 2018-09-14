@@ -8,7 +8,7 @@ state={
 
 	history={
 # = USA
-		buildings = {
+		#buildings = {
 			infrastructure = 6
 			industrial_complex = 3
 			air_base = 2
@@ -22,7 +22,7 @@ state={
 		}
 
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				industrial_complex = 4
 			}
 		}

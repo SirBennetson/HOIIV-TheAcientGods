@@ -13,7 +13,7 @@ state={
 	history={
 # = GER
 		victory_points = { 11435 10 }
-		buildings = {
+		#buildings = {
 			infrastructure = 7
 			industrial_complex = 3
 
@@ -27,7 +27,7 @@ state={
 		}
 
 		1939.1.1 ={
-			buildings = {
+			#buildings = {
 				radar_station = 1
 				synthetic_refinery = 3
 			}

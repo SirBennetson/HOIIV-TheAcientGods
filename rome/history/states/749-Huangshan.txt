@@ -5,13 +5,13 @@ state={
 		1099 1125 1153 1171 4105 4173 7007 7104 10044 11937 12019 
 	}
 	manpower=5000000
-	buildings_max_level_factor=1.000
+	#buildings_max_level_factor=1.000
 	state_category=town
 	history={
 # = CHI
 		add_core_of = CHI
 		add_core_of = PRC
-		buildings = {
+		#buildings = {
 			infrastructure = 4
 		}
 		
@@ -23,7 +23,7 @@ state={
 				set_province_controller = 12019
 
 			}
-			buildings = {
+			#buildings = {
 				infrastructure = 6
 				air_base = 1
 			}

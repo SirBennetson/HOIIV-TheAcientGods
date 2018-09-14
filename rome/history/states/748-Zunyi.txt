@@ -8,12 +8,12 @@ state={
 # = CHI
 		add_core_of = CHI
 		add_core_of = PRC
-		buildings = {
+		#buildings = {
 			infrastructure = 2
 
 		}
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				infrastructure = 4
 				air_base = 1
 			}
@@ -21,5 +21,5 @@ state={
 	}
 	manpower=1500000
 	state_category=pastoral
-	buildings_max_level_factor=1.000
+	#buildings_max_level_factor=1.000
 }

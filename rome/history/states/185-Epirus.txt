@@ -13,7 +13,7 @@ state={
 
 	history={
 # = GRE
-		buildings = {
+		#buildings = {
 			infrastructure = 4
 			air_base = 3
 			9805 = {

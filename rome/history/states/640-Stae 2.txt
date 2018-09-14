@@ -8,7 +8,7 @@ state={
 
 	history={
 # = RAJ
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			air_base = 1
 		}

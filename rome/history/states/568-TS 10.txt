@@ -8,7 +8,7 @@ state={
 
 	history={
 # = SOV
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 		}
 		victory_points = {

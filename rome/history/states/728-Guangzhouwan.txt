@@ -9,7 +9,7 @@ state={
 
 		add_core_of = CHI
 		add_core_of = PRC
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			11981 = {
 				naval_base = 1

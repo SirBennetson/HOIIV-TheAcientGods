@@ -9,7 +9,7 @@ state={
 
 	history={
 # = CAN
-		buildings = {
+		#buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 		}

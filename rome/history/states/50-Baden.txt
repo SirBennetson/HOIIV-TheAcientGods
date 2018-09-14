@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			9517 5 
 		}
-		buildings = {
+		#buildings = {
 			infrastructure = 8
 			arms_factory = 5
 			industrial_complex = 1
@@ -20,7 +20,7 @@ state={
 		}
 		add_core_of = GER
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				arms_factory = 11
 				industrial_complex = 3
 
@@ -34,5 +34,5 @@ state={
 		519 694 3530 3679 3690 3692 6542 6555 6568 6581 6712 6934 9517 9545 9655 11486 11499 11640 13126 
 	}
 	manpower=5086854
-	buildings_max_level_factor=1.000
+	#buildings_max_level_factor=1.000
 }

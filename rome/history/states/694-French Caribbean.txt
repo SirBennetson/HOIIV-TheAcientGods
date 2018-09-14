@@ -7,7 +7,7 @@ state={
 
 	history={
 
-		buildings = {
+		#buildings = {
 			infrastructure = 4
 			air_base = 1
 			177 = {

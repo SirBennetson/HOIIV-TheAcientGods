@@ -8,7 +8,7 @@ state={
 
 	history={
 
-		buildings = {
+		#buildings = {
 			infrastructure = 4
 		}
 	}

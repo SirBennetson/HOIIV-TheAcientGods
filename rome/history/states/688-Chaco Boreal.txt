@@ -12,7 +12,7 @@ state={
 
 	history={
 # = PAR
-		buildings = {
+		#buildings = {
 			infrastructure = 2
 		}
 		add_core_of = PAR

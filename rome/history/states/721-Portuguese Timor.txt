@@ -8,7 +8,7 @@ state={
 
 	history={
 # = POR
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			12190 ={
 				naval_base = 1

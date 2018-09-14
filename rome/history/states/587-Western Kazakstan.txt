@@ -4,7 +4,7 @@ state={
 
 	history={
 # = SOV
-		buildings = {
+		#buildings = {
 			infrastructure = 1
 
 		}
@@ -16,6 +16,6 @@ state={
 		475 642 1517 3593 4523 4620 7641 10262 10348 11701 12163 12383 12474 13008 
 	}
 	manpower=245133
-	buildings_max_level_factor=1.000
+	#buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -11,7 +11,7 @@ state={
 
 	history={
 # = COL
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 4

@@ -8,7 +8,7 @@ state={
 
 	history={
 # = VEN
-		buildings = {
+		#buildings = {
 			infrastructure = 1
 
 		}

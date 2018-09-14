@@ -7,7 +7,7 @@ state={
 	
 	history={
 # = POL
-		buildings = {
+		#buildings = {
 			infrastructure = 5
 			air_base = 3
 

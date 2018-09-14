@@ -8,7 +8,7 @@ state={
 
 	history={
 # = GER
-		buildings = {
+		#buildings = {
 			infrastructure = 7
 			industrial_complex = 2
 		}
@@ -18,7 +18,7 @@ state={
 		add_core_of = GER
 
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				air_base = 3
 			}
 		}

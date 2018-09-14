@@ -11,7 +11,7 @@ state= {
 
 	history= {
 # = CUB
-		buildings = {
+		#buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 3

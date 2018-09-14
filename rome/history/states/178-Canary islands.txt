@@ -8,7 +8,7 @@ state={
 
 	history={
 # = SPR
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			13071 = {
 				naval_base = 1

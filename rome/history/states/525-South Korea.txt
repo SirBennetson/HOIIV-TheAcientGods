@@ -8,7 +8,7 @@ state=
 	history=
 	{
 # = JAP
-		buildings = {
+		#buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			dockyard = 1

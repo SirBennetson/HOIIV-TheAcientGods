@@ -11,7 +11,7 @@ state={
 
 	history={
 # = PER
-		buildings = {
+		#buildings = {
 			infrastructure = 2
 		}
 		victory_points = {

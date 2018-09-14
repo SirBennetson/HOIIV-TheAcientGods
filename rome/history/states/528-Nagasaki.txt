@@ -11,7 +11,7 @@ state={
 	history={
 # = JAP
 		add_core_of = JAP
-		buildings = {
+		#buildings = {
 			infrastructure = 7
 			air_base = 3
 			dockyard = 4
@@ -33,7 +33,7 @@ state={
 			9950 30
 		}
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				dockyard = 4
 				industrial_complex = 3
 			}

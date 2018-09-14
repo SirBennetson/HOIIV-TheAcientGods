@@ -14,7 +14,7 @@ state={
 		victory_points = {
 			6380 50 
 		}
-		buildings = {
+		#buildings = {
 			infrastructure = 8
 			arms_factory = 9
 			industrial_complex = 2
@@ -22,7 +22,7 @@ state={
 		}
 		add_core_of = SOV
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				industrial_complex = 4
 				arms_factory = 11
 			}

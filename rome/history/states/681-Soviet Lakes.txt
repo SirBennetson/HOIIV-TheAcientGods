@@ -8,7 +8,7 @@ state={
 
 	history={
 # = SAF
-		buildings = {
+		#buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			air_base = 1

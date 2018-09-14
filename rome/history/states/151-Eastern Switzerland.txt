@@ -13,7 +13,7 @@ state={
 
 	history={
 # = SWI
-		buildings = {
+		#buildings = {
 			infrastructure = 6
 			industrial_complex = 3
 		}

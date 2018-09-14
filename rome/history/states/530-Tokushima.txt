@@ -8,7 +8,7 @@ state=
 	{
 # = JAP
 		add_core_of = JAP
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			air_base = 3
 			

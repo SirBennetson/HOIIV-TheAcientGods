@@ -6,13 +6,13 @@ state={
 	
 	state_category = town
 	
-	buildings_max_level_factor=1.000
+	#buildings_max_level_factor=1.000
 
 	history={
 # = CHI
 		add_core_of = CHI
 		add_core_of = PRC
-		buildings = {
+		#buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 		}
@@ -21,7 +21,7 @@ state={
 		}
 
 		1938.10.25 = {		
-			buildings = {
+			#buildings = {
 				industrial_complex = 4
 				infrastructure = 8
 				air_base = 2

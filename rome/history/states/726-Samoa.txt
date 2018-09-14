@@ -6,7 +6,7 @@ state={
 
 	history={
 # = NZL
-		buildings = {
+		#buildings = {
 			infrastructure = 3
 			7290 = {
 				naval_base = 1

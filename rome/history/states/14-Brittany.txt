@@ -16,7 +16,7 @@ state={
 		victory_points = {
 			9495 1
 		}
-		buildings = {
+		#buildings = {
 			infrastructure = 6
 			dockyard = 4
 			air_base = 5
@@ -34,7 +34,7 @@ state={
 		}
 		add_core_of = FRA
 		1939.1.1 = {
-			buildings = {
+			#buildings = {
 				dockyard = 5
 			}
 		}

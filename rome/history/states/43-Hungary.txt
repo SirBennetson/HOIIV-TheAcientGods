@@ -12,7 +12,7 @@ state={
 
 	history={
 # = HUN
-		buildings = {
+		#buildings = {
 			infrastructure = 6
 			arms_factory = 4
 			industrial_complex = 4
