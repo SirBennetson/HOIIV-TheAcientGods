@@ -10,7 +10,6 @@ state={
 	state_category = city
 	
 	history={
-		owner = LAT
 		victory_points = {
 			9340 5 
 		}
