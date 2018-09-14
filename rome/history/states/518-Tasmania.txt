@@ -8,7 +8,7 @@ state=
 
 	history=
 	{
-		owner = AST
+# = AST
 		victory_points = {
 			2189 1 
 		}

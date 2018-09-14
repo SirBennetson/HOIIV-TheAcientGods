@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = CAN
+# = CAN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

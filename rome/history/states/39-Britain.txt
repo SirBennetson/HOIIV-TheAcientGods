@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = ITA
+# = ITA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1

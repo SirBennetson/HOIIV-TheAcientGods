@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = IRQ
+# = IRQ
 		buildings = {
 			infrastructure = 1
 		}
