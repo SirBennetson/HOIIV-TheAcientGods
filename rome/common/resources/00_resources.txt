@@ -1,0 +1,27 @@
+resources = {
+
+	wood = {
+		icon_frame = 1
+		cic = 0.125
+		convoys = 0.1
+	}
+	
+	stone = {
+		icon_frame = 2
+		cic = 0.125
+		convoys = 0.1
+	}
+	
+	iron = {
+		icon_frame = 5
+		cic = 0.125
+		convoys = 0.1
+	}
+	
+	horses = {
+		icon_frame = 3
+		cic = 0.125
+		convoys = 0.2
+	}
+
+}

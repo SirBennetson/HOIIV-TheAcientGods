@@ -2,10 +2,10 @@
 state={
 	id=156
 	name="STATE_156"
-	manpower = 2966315
-	
-	state_category = city
 	provinces={
-		3901 6979 9784 9856 9990 10027 11837 11998 12066 12098 
+		851 3901 3968 6972 6979 9784 9856 9990 10027 11837 11998 12066 12098 
 	}
+	manpower=2966315
+	buildings_max_level_factor=1.000
+	state_category=city
 }

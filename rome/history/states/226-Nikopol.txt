@@ -6,9 +6,7 @@ state={
 	
 	state_category = town
 	
-	resources={
-		oil=4 # was: 6
-	}
+	resources={}
 
 	provinces={
 		453 472 486 6423 9419 9433 9463 9479 11422 11437 11452 11561 

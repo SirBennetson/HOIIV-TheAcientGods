@@ -5,10 +5,7 @@ state={
 	
 	state_category = pastoral
 	
-	resources={
-		tungsten=3 # was: 4
-		steel=2 # was: 2
-	}
+	resources={}
 
 	provinces={
 		2195 2209 5165 8203 10973 

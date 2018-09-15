@@ -5,9 +5,7 @@ state= {
 	
 	state_category = rural
 	
-	resources={
-		tungsten=76 # was: 106
-	}
+	resources={}
 
 	provinces={
 		1663 1740 1756 4668 4742 4865 7764 7818 10582 10651 10662 12573 12699 13153

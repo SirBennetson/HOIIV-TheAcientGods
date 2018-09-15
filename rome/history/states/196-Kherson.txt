@@ -6,9 +6,7 @@ state={
 	
 	state_category = rural
 	
-	resources={
-		chromium=15 # was: 22
-	}
+	resources={}
 
 	provinces={
 		568 721 737 767 3573 6771 9712 11715 

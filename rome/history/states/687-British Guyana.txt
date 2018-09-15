@@ -5,9 +5,7 @@ state={
 	
 	state_category = pastoral
 	
-	resources={
-		aluminium=60 # was: 112
-	}
+	resources={}
 
 	provinces={
 		4982 8107 12716 

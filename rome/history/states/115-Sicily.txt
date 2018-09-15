@@ -11,7 +11,7 @@ state={
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-			dockyard = 1
+			dockyard = 0
 
 			4159 = {
 				naval_base = 8
@@ -32,5 +32,5 @@ state={
 	}
 	manpower=22571
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 }

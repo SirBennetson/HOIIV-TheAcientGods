@@ -6,9 +6,7 @@ state={
 	
 	state_category = megalopolis
 	
-	resources={
-		aluminium=1 # was: 2
-	}
+	resources={}
 
 	provinces={
 		993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908 

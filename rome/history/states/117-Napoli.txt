@@ -1,10 +1,10 @@
 
 state={
 	id=117
-	name="STATE_117" # Campania
-	manpower = 5333611
+	name="STATE_117"
+	resources={}
 
-history={
+	history={
 		owner = SAM
 		victory_points = {
 			819 20 
@@ -15,19 +15,18 @@ history={
 			industrial_complex = 2
 			819 = {
 				naval_base = 2
+
 			}
+
 		}
 		add_core_of = SAM
 
 	}
 
-	state_category = city
-	resources={
-		aluminium=10 # was: 16
-		steel = 15 # was: 24
-	}
-
 	provinces={
-		819 851 883 955 3958 3968 6843 6939 6972 6980 9826 11803 
+		819 883 955 3958 6843 6939 6980 9826 11803 
 	}
+	manpower=5333611
+	buildings_max_level_factor=1.000
+	state_category=city
 }

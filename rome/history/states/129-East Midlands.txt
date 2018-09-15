@@ -6,9 +6,7 @@ state={
 	
 	state_category = city
 	
-	resources={
-		steel=11 # was: 20
-	}
+	resources={}
 
 	provinces={
 		364 3353 6237 9250 9268 9322 11279 

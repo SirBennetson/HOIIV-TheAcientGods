@@ -5,9 +5,7 @@ state={
 	
 	state_category = city
 	
-	resources={
-		tungsten=1 # was: 2
-	}
+	resources={}
 
 	provinces={
 		541 3484 3537 9539 9692 11522 11539 

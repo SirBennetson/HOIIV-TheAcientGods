@@ -6,9 +6,7 @@ state={
 	
 	state_category = wasteland
 	
-	resources={
-		chromium=90 # was: 168
-	}
+	resources={}
 
 	provinces={
 		1580 8214 10525 12940 12963 

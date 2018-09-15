@@ -6,9 +6,7 @@ state={
 	
 	state_category = metropolis
 	
-	resources={
-		steel=71 # was: 120
-	}
+	resources={}
 
 	provinces={
 		6268 9269 9315 9332 9379 9397 11297 11317 11382 

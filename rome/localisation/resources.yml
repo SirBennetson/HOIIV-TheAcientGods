@@ -1,0 +1,11 @@
+wood: "Logs"
+wood_desc: "Logs found in the forest"
+
+stone: "Stones"
+stone_desc: "Stones found everywhere"
+
+horse: "Horses"
+horse_desc: "Horse found in the plains"
+
+iron: "Iron"
+iron_desc: "Iron found in the mountains"
