@@ -1,0 +1,10 @@
+state={
+	id=701
+	name="STATE_701"
+	manpower = 199520
+	
+	state_category = enclave
+	provinces={
+		4989 
+	}
+}

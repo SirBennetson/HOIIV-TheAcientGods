@@ -1,0 +1,17 @@
+
+state={
+	id=106
+	name="STATE_106"
+	manpower = 1374200
+	
+	state_category = rural
+	
+	resources={
+		chromium=70 # was: 116
+		aluminium=16 # was: 32
+	}
+
+	provinces={
+		907 974 3833 3865 3882 6886 11832 11856 11857 11868 
+	}
+}
