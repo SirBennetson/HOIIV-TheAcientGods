@@ -11,3 +11,14 @@ ROR_fascism: "Roman Empire"
 ROR_fascism_DEF: "Roman Empire" #For events
 ROR_ADJ: "roman"
 
+LAM_communism: "People's Republic of Latium"
+LAM_communism_DEF: "The People's Republic of Latium" #For events
+LAM_ADJ: "Latium"
+
+LAM_democracy: "Republic of Latium"
+LAM_democracy_DEF: "Republic of Latium" #For events
+LAM_ADJ: "Latium"
+
+LAM_fascism: "Latium Empire"
+LAM_fascism_DEF: "Latium Empire" #For events
+LAM_ADJ: "Latium"
