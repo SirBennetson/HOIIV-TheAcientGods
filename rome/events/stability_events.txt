@@ -64,7 +64,6 @@ country_event = {
 					factor = 0
 					has_country_flag = draft_dodging_resolved
 				}
-				add_ideas = draft_dodging 
 				country_event = stability.21
 			} #draft dodging
 			20 = { 
@@ -72,16 +71,12 @@ country_event = {
 					factor = 0
 					has_country_flag = strikes_resolved
 				}
-				add_ideas = strikes_1 
-				country_event = stability.22
 			} #strikes
 			20 = { 
 				modifier = {
 					factor = 0
 					has_country_flag = mutiny_resolved
 				}
-				add_ideas = mutiny_1 
-				country_event = stability.23
 			} #mutinies
 		}
 		if = {
@@ -743,11 +738,6 @@ country_event = {
 	
 	option = { 
 		name = stability.31.a
-		remove_ideas =  { 
-			draft_dodging 
-			draft_dodging_2
-			draft_dodging_3
-		}
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress
 		set_country_flag = { flag = draft_dodging_resolved days = 90 }
@@ -814,12 +804,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
-		name = stability.34.a
-		remove_ideas =  { 
-			draft_dodging 
-			draft_dodging_2
-			draft_dodging_3
-		} 
+		name = stability.34.a 
 		add_stability = 0.05
 		add_war_support = 0.05
 		clr_country_flag = crisis_in_progress
@@ -840,11 +825,7 @@ country_event = {
 	
 	option = { 
 		name = stability.35.a
-		remove_ideas =  { 
-			draft_dodging 
-			draft_dodging_2
-			draft_dodging_3
-		}
+
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress
 		set_country_flag = { flag = draft_dodging_resolved days = 90 }
@@ -881,11 +862,7 @@ country_event = {
 	
 	option = { 
 		name = stability.37.a
-		remove_ideas =  { 
-			draft_dodging 
-			draft_dodging_2
-			draft_dodging_3
-		} 
+
 		add_stability = 0.05
 		add_war_support = 0.05
 		clr_country_flag = crisis_in_progress
@@ -907,11 +884,6 @@ country_event = {
 	
 	option = { 
 		name = stability.38.a
-		remove_ideas =  { 
-			draft_dodging 
-			draft_dodging_2
-			draft_dodging_3
-		}
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress
 		set_country_flag = { flag = draft_dodging_resolved days = 90 }
@@ -947,11 +919,6 @@ country_event = {
 	
 	option = { 
 		name = stability.40.a
-		remove_ideas =  { 
-			draft_dodging 
-			draft_dodging_2
-			draft_dodging_3
-		}
 		add_stability = 0.05
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress
@@ -972,11 +939,6 @@ country_event = {
 	
 	option = { 
 		name = strikes_event.1.a
-		remove_ideas =  { 
-			strikes_1 
-			strikes_2
-			strikes_3
-		}
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress
 		set_country_flag = { flag = strikes_resolved days = 90 }
@@ -1013,11 +975,6 @@ country_event = {
 	
 	option = { 
 		name = strikes_event.3.a
-		remove_ideas =  { 
-			strikes_1 
-			strikes_2
-			strikes_3
-		}
 		clr_country_flag = crisis_in_progress
 		add_stability = 0.05
 		clr_country_flag = crisis_solution_in_progress
@@ -1035,11 +992,6 @@ country_event = {
 	
 	option = { 
 		name = strikes_event.4.a
-		remove_ideas =  { 
-			strikes_1 
-			strikes_2
-			strikes_3
-		}
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress
 		set_country_flag = { flag = strikes_resolved days = 90 }
@@ -1076,11 +1028,6 @@ country_event = {
 	
 	option = { 
 		name = strikes_event.6.a
-		remove_ideas =  { 
-			strikes_1 
-			strikes_2
-			strikes_3
-		}
 		clr_country_flag = crisis_in_progress
 		add_stability = 0.05
 		clr_country_flag = crisis_solution_in_progress
@@ -1099,11 +1046,6 @@ country_event = {
 	
 	option = { 
 		name = strikes_event.7.a
-		remove_ideas =  { 
-			strikes_1 
-			strikes_2
-			strikes_3
-		}
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress
 		set_country_flag = { flag = strikes_resolved days = 90 }
@@ -1140,11 +1082,6 @@ country_event = {
 	
 	option = { 
 		name = strikes_event.9.a
-		remove_ideas =  { 
-			strikes_1 
-			strikes_2
-			strikes_3
-		}
 		clr_country_flag = crisis_in_progress
 		add_stability = 0.05
 		clr_country_flag = crisis_solution_in_progress
@@ -1165,11 +1102,6 @@ country_event = {
 	
 	option = { 
 		name = mutiny_event.1.a
-		remove_ideas =  { 
-			mutiny_1 
-			mutiny_2
-			mutiny_3
-		}
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress
 		set_country_flag = { flag = mutiny_resolved days = 90 }
@@ -1206,11 +1138,7 @@ country_event = {
 	
 	option = { 
 		name = mutiny_event.3.a
-		remove_ideas =  { 
-			mutiny_1 
-			mutiny_2
-			mutiny_3
-		}
+		 
 		clr_country_flag = crisis_in_progress
 		add_stability = 0.05
 		clr_country_flag = crisis_solution_in_progress
@@ -1228,11 +1156,7 @@ country_event = {
 	
 	option = { 
 		name = mutiny_event.4.a
-		remove_ideas =  { 
-			mutiny_1 
-			mutiny_2
-			mutiny_3
-		}
+		 
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress
 		set_country_flag = { flag = mutiny_resolved days = 90 }
@@ -1269,11 +1193,7 @@ country_event = {
 	
 	option = { 
 		name = mutiny_event.6.a
-		remove_ideas =  { 
-			mutiny_1 
-			mutiny_2
-			mutiny_3
-		}
+		 
 		clr_country_flag = crisis_in_progress
 		add_stability = 0.05
 		clr_country_flag = crisis_solution_in_progress
@@ -1292,11 +1212,7 @@ country_event = {
 	
 	option = { 
 		name = mutiny_event.7.a
-		remove_ideas =  { 
-			mutiny_1 
-			mutiny_2
-			mutiny_3
-		}
+		 
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress
 		set_country_flag = { flag = mutiny_resolved days = 90 }
@@ -1333,11 +1249,7 @@ country_event = {
 	
 	option = { 
 		name = mutiny_event.9.a
-		remove_ideas =  { 
-			mutiny_1 
-			mutiny_2
-			mutiny_3
-		}
+		 
 		clr_country_flag = crisis_in_progress
 		add_stability = 0.05
 		clr_country_flag = crisis_solution_in_progress

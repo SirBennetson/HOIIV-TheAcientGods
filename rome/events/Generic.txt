@@ -809,7 +809,6 @@ country_event = {
 	option = {
 		name = generic.9.a
 		clr_country_flag = racing_for_the_bomb
-		add_timed_idea = { idea = race_for_the_bomb_outclassed days = 360 }
 		add_stability = -0.1
 	}	
 }
