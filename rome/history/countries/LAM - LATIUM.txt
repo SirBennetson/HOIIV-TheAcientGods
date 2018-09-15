@@ -1,4 +1,4 @@
-
+﻿
 capital = 2
 oob = "LAM_300"
 set_stability = 0.5

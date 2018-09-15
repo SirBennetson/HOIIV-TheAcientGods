@@ -2,7 +2,21 @@
 state={
 	id=157
 	name="STATE_157"
-	manpower = 2979335
+	history={
+		owner = UMB
+		victory_points = {
+			925 5 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			925 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = UMB
+	}
+	manpower = 100000
 	
 	state_category = city
 

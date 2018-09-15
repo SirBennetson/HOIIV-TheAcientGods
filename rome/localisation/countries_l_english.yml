@@ -22,3 +22,27 @@ LAM_ADJ: "Latium"
 LAM_fascism: "Latium Empire"
 LAM_fascism_DEF: "Latium Empire" #For events
 LAM_ADJ: "Latium"
+
+UMB_communism: "People's Republic of Umbria"
+UMB_communism_DEF: "The People's Republic of Umbria" #For events
+UMB_ADJ: "Umbria"
+
+UMB_democracy: "Republic of Umbria"
+UMB_democracy_DEF: "Republic of Umbria" #For events
+UMB_ADJ: "Umbria"
+
+UMB_fascism: "Umbria Empire"
+UMB_fascism_DEF: "Umbria Empire" #For events
+UMB_ADJ: "Umbria"
+
+SAM_communism: "People's Republic of Samnium"
+SAM_communism_DEF: "The People's Republic of Samnium" #For events
+SAM_ADJ: "Samnium"
+
+SAM_democracy: "Republic of Samnium"
+SAM_democracy_DEF: "Republic of Samnium" #For events
+SAM_ADJ: "Samnium"
+
+SAM_fascism: "Samnium Empire"
+SAM_fascism_DEF: "Samnium Empire" #For events
+SAM_ADJ: "Samnium"

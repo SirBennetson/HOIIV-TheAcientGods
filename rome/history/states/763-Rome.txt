@@ -17,6 +17,7 @@ state={
 			}
 		}
 		add_core_of = ROR
+		add_core_of = LAM
 		
 	}
 	provinces={

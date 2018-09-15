@@ -1,6 +1,6 @@
 ﻿
-capital = 763
-oob = "ROR_300"
+capital = 117
+oob = "SAM_300"
 set_stability = 0.3
 set_war_support = 0.4
 set_convoys = 10
