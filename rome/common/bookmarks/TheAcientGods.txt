@@ -1,0 +1,20 @@
+bookmarks = {
+	bookmark = {
+		name = "ACGO_NAME"
+		desc = "ACGO_DESC"
+		date = -500.0.0.0
+		default = yes
+		default_country = ROR
+		picture = "GFX_select_date_1939"
+		default_country = "ROR"
+		
+		"---"={
+		history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
