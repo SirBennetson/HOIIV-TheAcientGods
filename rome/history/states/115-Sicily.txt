@@ -2,9 +2,14 @@
 state={
 	id=115
 	name="STATE_115"
+	resources={
+		horses=1
+		stone=2
+		iron=1
+	}
 
 	history={
-		#owner = ITA
+		owner = MGR
 		victory_points = {
 			4159 10 
 		}
@@ -17,13 +22,9 @@ state={
 				naval_base = 8
 
 			}
-			4014 = {
-				naval_base = 3
-
-			}
 
 		}
-		#add_core_of = ITA
+		add_core_of = MGR
 
 	}
 

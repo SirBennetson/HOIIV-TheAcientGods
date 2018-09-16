@@ -14,3 +14,11 @@ SAM = {
   color = rgb{ 153 0 0 }
   color_ui = rgb { 250 150 150 }
 }
+ETR = {
+  color = rgb{ 51 153 102 }
+  color_ui = rgb { 150 250 200 }
+}
+MGR = {
+  color = rgb{ 255 204 0 }
+  color_ui = rgb { 250 200 0 }
+}

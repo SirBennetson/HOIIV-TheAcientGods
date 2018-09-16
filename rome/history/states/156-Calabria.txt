@@ -2,8 +2,42 @@
 state={
 	id=156
 	name="STATE_156"
+	resources={
+		horses=1
+		wood=10
+		iron=4
+		stone=4
+	}
+	history={
+		owner = MGR
+		victory_points = {
+			11837 40 
+		}
+		victory_points = {
+			9990 20 
+		}
+		victory_points = {
+			819 25 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+
+			11837 = {
+				naval_base = 2
+
+			}
+			819 = {
+				naval_base = 2
+
+			}
+		}
+		add_core_of = MGR
+		
+	}
 	provinces={
-		851 3901 3968 6972 6979 9784 9856 9990 10027 11837 11998 12066 12098 
+		819 955 851 3901 3968 6972 6979 9784 9856 9990 10027 11837 11998 12066 12098 
 	}
 	manpower=2966315
 	buildings_max_level_factor=1.000

@@ -1,0 +1,58 @@
+﻿
+capital = 162
+oob = "ETR_300"
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 10
+set_research_slots = 2
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_destroyer = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1}
+set_politics = {
+	parties = {
+		democratic = { 
+			popularity = 93
+		}
+
+		fascism = {
+			popularity = 4
+		}
+		
+		communism = {
+			popularity = 3
+		}
+	}
+}
+create_country_leader = {
+	name = "Ronald McDonald"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+create_corps_commander = {
+	name = "Sean McHaggis"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	traits = { panzer_leader fortress_buster }
+	skill = 4
+}
+create_navy_leader = {
+	name = "James McSeafarer"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	traits = { blockade_runner superior_tactician }
+	skill = 4
+}

@@ -2,11 +2,36 @@
 state={
 	id=162
 	name="STATE_162"
-	manpower = 3084933
-	
-	state_category = large_city
+	resources={
+		horses=1.000
+		wood=10.000
+		stone=4.000
+		iron=2.000
+	}
+
+	history={
+		owner = ETR
+		victory_points = {
+			9907 40 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			6946 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = ETR
+
+	}
 
 	provinces={
-		910 1616 3885 6875 6946 6973 9750 9879 9907 11833 11889 
+		910 1616 3885 6862 6875 6946 6973 9750 9879 9907 11833 11889 
 	}
+	manpower=308493
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

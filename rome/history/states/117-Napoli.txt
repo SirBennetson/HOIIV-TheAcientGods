@@ -7,13 +7,13 @@ state={
 	history={
 		owner = SAM
 		victory_points = {
-			819 20 
+			6843 20 
 		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 2
-			819 = {
+			6843 = {
 				naval_base = 2
 
 			}
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		819 883 955 3958 6843 6939 6980 9826 11803 
+		883 3958 6843 6939 6980 9826 11803 
 	}
 	manpower=5333611
 	buildings_max_level_factor=1.000

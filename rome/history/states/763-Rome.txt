@@ -1,14 +1,16 @@
+
 state={
 	id=763
-	name="STATE_763" #Rome
+	name="STATE_763"
 	resources={
-		horses=1
-		wood=5
+		horses=1.000
+		wood=2.000
 	}
+
 	history={
 		owner = ROR
 		victory_points = {
-			9904 40 
+			9904 40
 		}
 		buildings = {
 			infrastructure = 2
@@ -19,13 +21,15 @@ state={
 				naval_base = 2
 
 			}
+
 		}
 		add_core_of = ROR
 		add_core_of = LAM
-		
+
 	}
+
 	provinces={
-		9904 11846 923 
+		9904 11751 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

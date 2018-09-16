@@ -2,21 +2,24 @@
 state={
 	id=2
 	name="STATE_2"
-
+	resources={
+		horses=1.000
+		wood=2.000
+		stone=2.000
+	}
 	history={
 		owner = LAM
 		victory_points = {
-			11751 40 
+			11846 40 
 		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 2
-			11751 = {
-				naval_base = 5
+			11846 = {
+				naval_base = 2
 
 			}
-
 
 		}
 		add_core_of = LAM
@@ -24,7 +27,7 @@ state={
 	}
 
 	provinces={
-		6862 9794 11751 11882 
+		923 9794 11846 11882 
 	}
 	manpower=2781971
 	buildings_max_level_factor=1.000
