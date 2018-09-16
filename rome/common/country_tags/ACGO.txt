@@ -1,0 +1,6 @@
+ETR	= "countries/ETRUSCIA.txt"
+LAM	= "countries/LATIUM.txt"
+MGR	= "countries/MAGNAGRAECIA.txt"
+ROR	= "countries/ROME.txt"
+SAM	= "countries/SAMNIUM.txt"
+UMB	= "countries/UMBRIA.txt"
