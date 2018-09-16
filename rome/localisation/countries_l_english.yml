@@ -4,8 +4,8 @@ l_english:
  ROR_communism_DEF:0 "The People's Republic of Rome" #For events
  ROR_ADJ:0 "roman"
 
- ROR_democracy:0 "Republic of Rome"
- ROR_democracy_DEF:0 "Republic of Rome" #For events
+ ROR_democratic:0 "Republic of Rome"
+ ROR_democratic_DEF:0 "Republic of Rome" #For events
  ROR_ADJ:0 "roman"
 
  ROR_fascism:0 "Roman Empire"
@@ -16,8 +16,8 @@ l_english:
  LAM_communism_DEF:0 "The People's Republic of Latium" #For events
  LAM_ADJ:0 "Latium"
 
- LAM_democracy:0 "Republic of Latium"
- LAM_democracy_DEF:0 "Republic of Latium" #For events
+ LAM_democratic:0 "Republic of Latium"
+ LAM_democratic_DEF:0 "Republic of Latium" #For events
  LAM_ADJ:0 "Latium"
 
  LAM_fascism:0 "Latium Empire"
@@ -28,8 +28,8 @@ l_english:
  UMB_communism_DEF:0 "The People's Republic of Umbria" #For events
  UMB_ADJ:0 "Umbria"
 
- UMB_democracy:0 "Republic of Umbria"
- UMB_democracy_DEF:0 "Republic of Umbria" #For events
+ UMB_democratic:0 "Republic of Umbria"
+ UMB_democratic_DEF:0 "Republic of Umbria" #For events
  UMB_ADJ:0 "Umbria"
 
  UMB_fascism:0 "Umbria Empire"
@@ -40,8 +40,8 @@ l_english:
  SAM_communism_DEF:0 "The People's Republic of Samnium" #For events
  SAM_ADJ:0 "Samnium"
 
- SAM_democracy:0 "Republic of Samnium"
- SAM_democracy_DEF:0 "Republic of Samnium" #For events
+ SAM_democratic:0 "Republic of Samnium"
+ SAM_democratic_DEF:0 "Republic of Samnium" #For events
  SAM_ADJ:0 "Samnium"
 
  SAM_fascism:0 "Samnium Empire"
