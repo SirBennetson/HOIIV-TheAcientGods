@@ -2,6 +2,23 @@
 state={
 	id=449
 	name="STATE_449" # El Agheila
+	resources={
+		stone=1
+	}
+
+	history={
+		owner = CAR
+		victory_points = {
+			7096 40
+		}
+		buildings = {
+			infrastructure = 1
+
+
+		}
+		add_core_of = CAR
+
+	}
 	manpower = 40431
 	
 	state_category = enclave

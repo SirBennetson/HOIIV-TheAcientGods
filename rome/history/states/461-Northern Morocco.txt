@@ -2,7 +2,32 @@
 state={
 	id=461
 	name="STATE_461"
-	manpower = 3197719
+	resources={
+		horses=2
+		wood=2
+		stone=5
+		iron=1
+	}
+
+	history={
+		owner = CAR
+		victory_points = {
+			7069 40
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			7069 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CAR
+
+	}
+	manpower = 319771
 	
 	state_category = rural
 	
