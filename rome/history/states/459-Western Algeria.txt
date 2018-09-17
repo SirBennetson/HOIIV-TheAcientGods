@@ -2,10 +2,31 @@
 state={
 	id=459
 	name="STATE_459" # Algiers
-	manpower = 3089944
+	resources={
+		stone=8
+		iron=2
+	}
+
+	history={
+		owner = CAR
+		victory_points = {
+			1145 20
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			1145 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CAR
+
+	}
+	manpower = 308994
 	state_category = town
-	
-	resources={}
 
 	provinces={
 		1013 1145 4116 4131 4146 7132 9964 11923 11939 12760 

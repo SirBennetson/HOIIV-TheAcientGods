@@ -2,6 +2,23 @@ state=
 {
 	id=164
 	name="STATE_164"
+	resources={
+		wood=1
+	}
+
+	history={
+		owner = GCS
+		victory_points = {
+			7003 10
+		}
+		buildings = {
+			infrastructure 1
+
+
+		}
+		add_core_of = COR
+
+	}
 	manpower = 120000
 	
 	state_category = small_island
