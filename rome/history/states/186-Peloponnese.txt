@@ -2,10 +2,38 @@
 state={
 	id=186
 	name="STATE_186"
-	provinces={
-		1173 4078 4178 4193 7096 11965 
+	resources={
+		stone=5.000
+		wood=10.000
+		iron=2.000
 	}
-	manpower=945000
+
+	history={
+		owner = SPA
+		victory_points = {
+			4178 40 
+		}
+		victory_points = {
+			1173 40 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			4178 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SPA
+
+	}
+
+	provinces={
+		4078 4178 11965 
+	}
+	manpower=645000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

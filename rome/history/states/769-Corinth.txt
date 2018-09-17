@@ -1,36 +1,33 @@
-
 state={
-	id=47
-	name="STATE_47"
-	
+	id=769
+	name="STATE_769"
 	resources={
 		horses=1
-		wood=2
-		stone=2
+		wood=1
 	}
 
 	history={
-		owner = TES
+		owner = COR
 		victory_points = {
-			3864 40
+			7096 40
 		}
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 1
-			3864 = {
+			7096 = {
 				naval_base = 1
 
 			}
 
 		}
-		add_core_of = TES
+		add_core_of = COR
 
 	}
 	provinces={
-		863 3864 3973 6930 
+		7096 
 	}
-	manpower=2312500
+	manpower=300000
 	buildings_max_level_factor=1.000
 	state_category=city
 }

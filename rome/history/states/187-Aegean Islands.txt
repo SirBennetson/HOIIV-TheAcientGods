@@ -2,13 +2,53 @@
 state={
 	id=187
 	name="STATE_187"
-	manpower = 322600
-	
-	state_category = small_island
-	
-	resources={}
+	resources={
+		wood=2.000
+		stone=2.000
+	}
+
+	history={
+		owner = GCS
+		victory_points = {
+			1106 40 
+		}
+		victory_points = {
+			895 40 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			895 = {
+				naval_base = 1
+
+			}
+			1106 = {
+				naval_base = 1
+
+			}
+			3401 = {
+				naval_base = 1
+
+			}
+			6550 = {
+				naval_base = 1
+
+			}
+			8435 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GCS
+
+	}
 
 	provinces={
-		3401 6550 8435 
+		1106 3401 6550 8435 
 	}
+	manpower=322600
+	buildings_max_level_factor=1.000
+	state_category=small_island
 }

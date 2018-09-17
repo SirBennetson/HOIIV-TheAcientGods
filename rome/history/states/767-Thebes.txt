@@ -1,6 +1,26 @@
 state={
 	id=767
 	name="STATE_767"
+	resources={
+		stone=2
+		wood=8
+	}
+
+	history={
+		owner = THE
+		victory_points = {
+			1109 40
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+
+
+		}
+		add_core_of = THE
+
+	}
 	provinces={
 		976 1109 
 	}

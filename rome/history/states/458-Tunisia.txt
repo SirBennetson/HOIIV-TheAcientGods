@@ -4,7 +4,31 @@ state={
 	name="STATE_458"
 	manpower = 1982940
 	state_category = town
-	resources={}
+	resources={
+		horses=4
+		wood=8
+		stone=5
+		iron=1
+	}
+
+	history={
+		owner = CAR
+		victory_points = {
+			11969 40
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 2
+			11969 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = CAR
+
+	}
 
 	provinces={
 		1037 1046 4061 4129 4163 7077 7162 7180 9994 10091 11921 11969 
