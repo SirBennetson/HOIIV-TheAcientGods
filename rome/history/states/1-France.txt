@@ -2,7 +2,25 @@
 state={
 	id=1
 	name="STATE_1" # Corsica
-	manpower = 322900
+	resources={
+		wood=4
+		stone=2
+		iron=1
+	}
+
+	history={
+		owner = CAR
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+
+
+		}
+		add_core_of = CAR
+
+	}
+	manpower = 32290
 	
 	state_category = town
 
