@@ -21,7 +21,7 @@
 			"Luigi Settembrini" "Ruggiero Settimo" "Galileo Galilei" "Evangelista Torricelli" "Galileo Ferraris" "Ametista" "Anfitrite" "Diamante" "Galatea" "Naiade" "Nereide" "Ondina" "Rubino" "Sirena" "Smeraldo" 
 			"Topazio" "Zaffiro" 
 			# Fictional names start here (10 fictional) 
-			"Attinio" "Azoto" "Bromo" "Carbonio" "Elio" "Molibdeno" "Osmio" "Ossigeno" "Selenio" "Tungsteno" 
+			"Attinio" "Azoto" "Bromo" "Carbonio" "Elio" "Molibdeno" "Osmio" "Ossigeno" "Selenio" "###o" 
 		} 
 	} 
 	destroyer = { 

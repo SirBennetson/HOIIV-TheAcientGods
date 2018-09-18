@@ -3276,14 +3276,14 @@ PHI = {
 		prefix = "RPS"
 		generic = { "Light Cruiser" }
 		unique = {
-			"Quezon" "Rizal" "Cebu" "Pangasinan" "Iloilo" "Manila" "Luzon" "Cabanatuan" "Batangas" "Cadiz" "Davao" 
+			"Quezon" "Rizal" "Cebu" "Pangasinan" "Ilwoodo" "Manila" "Luzon" "Cabanatuan" "Batangas" "Cadiz" "Davao" 
 		}
 	}
 	heavy_cruiser = {
 		prefix = "RPS"
 		generic = { "Heavy Cruiser" }
 		unique = {
-			"Quezon" "Rizal" "Cebu" "Pangasinan" "Iloilo" "Manila" "Luzon" "Cabanatuan" "Batangas" "Cadiz" "Davao" 
+			"Quezon" "Rizal" "Cebu" "Pangasinan" "Ilwoodo" "Manila" "Luzon" "Cabanatuan" "Batangas" "Cadiz" "Davao" 
 		}
 	}
 	battle_cruiser = {
