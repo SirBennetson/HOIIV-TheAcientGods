@@ -2,12 +2,19 @@ bookmarks = {
 	bookmark = {
 		name = "ACGO_NAME"
 		desc = "ACGO_DESC"
-		date = 300.1.1.1
+		date = 247.2.3.4
 		default = yes
 		default_country = ROR
 		picture = "GFX_select_date_1939"
-		default_country = "ROR"
 		
+		"ROR"={
+			history = "ROR_desc"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"---"={
 		history = "OTHER_GATHERING_STORM_DESC"
 		}

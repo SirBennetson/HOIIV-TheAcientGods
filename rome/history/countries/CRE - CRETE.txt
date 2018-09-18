@@ -1,6 +1,6 @@
 ﻿
-capital = 765
-oob = "ATH_300"
+capital = 182
+oob = "CRE_300"
 set_stability = 0.5
 set_war_support = 0.5
 set_convoys = 10
@@ -34,15 +34,6 @@ set_politics = {
 		}
 	}
 }
-
-create_faction = Dhelian_League
-add_to_faction = ATH
-add_to_faction = EUB
-add_to_faction = GCS
-
-
-
-
 create_country_leader = {
 	name = "Ronald McDonald"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"

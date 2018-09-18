@@ -31,6 +31,14 @@ l_english:
  UMB_democratic:0 "Republic of Umbria"
  UMB_democratic_DEF:0 "Republic of Umbria" #For events
  UMB_ADJ:0 "Umbria"
+ 
+ SPA_democratic:0 "Sparta"
+ SPA_democratic_DEF:0 "Sparta" #For events
+ SPA_ADJ:0 "Sparta"
+ 
+ ATH_democratic:0 "Athens"
+ ATH_democratic_DEF:0 "Athens" #For events
+ ATH_ADJ:0 "Athens"
 
  UMB_fascism:0 "Umbria Empire"
  UMB_fascism_DEF:0 "Umbria Empire" #For events

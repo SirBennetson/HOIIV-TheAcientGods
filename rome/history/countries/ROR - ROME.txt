@@ -21,25 +21,32 @@ set_technology = {
 	transport = 1}
 set_politics = {
 	parties = {
-		democratic = { 
-			popularity = 93
+		Monarchism = { 
+			popularity = 61
 		}
 
-		fascism = {
-			popularity = 4
+		RomanRepublic = {
+			popularity = 25
 		}
 		
-		communism = {
-			popularity = 3
+		RomanImperial = {
+			popularity = 13
+		}
+		Unrest = {
+			popularity = 1
 		}
 	}
+	ruling_party = Monarchism
+	last_election = "200.5.1"
+	election_frequency = 48
+    elections_allowed = no
 }
 create_country_leader = {
 	name = "Ronald McDonald"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = Mediteranian
 	traits = {
 		
 	}

@@ -1,5 +1,5 @@
 ROR = {
-  color = rgb { 200 0 0}
+  color = rgb { 250 0 0}
   color_ui = rgb { 255 155 155 }
 }
 LAM = {
@@ -23,8 +23,8 @@ MGR = {
   color_ui = rgb { 250 200 0 }
 }
 CAR = {
-  color = rgb{ 204 51 0 }
-  color_ui = rgb { 250 155 0 }
+  color = rgb{ 128 0 0 }
+  color_ui = rgb { 250 0 0 }
 }
 SPA = {
   color = rgb{ 255 102 0 }
@@ -65,4 +65,12 @@ TES = {
 GCS = {
   color = rgb{ 0 255 255 }
   color_ui = rgb { 100 250 250 }
+}
+MAC = {
+  color = rgb{ 0 0 150 }
+  color_ui = rgb { 100 100 250 }
+}
+CRE = {
+  color = rgb{ 204 102 255 }
+  color_ui = rgb { 205 150 250 }
 }
