@@ -2,9 +2,9 @@
 	name = "Hastati"
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+		light_sword_infantry = { x = 0 y = 0 }
+		light_sword_infantry = { x = 0 y = 1 }
+		light_sword_infantry = { x = 0 y = 2 }
 	}
 	priority = 1
 }
@@ -19,7 +19,7 @@ units = {
 	}
 	division = {
 		#name = "Hastati"
-		location = 11846
+		location = 11751
 		division_template = "Hastati"
 		start_equipment_factor = 0.5
 	}
