@@ -4,7 +4,7 @@ spriteTypes = {
 	### Large images for Groups Rome Mod ###
 
 	spriteType = { name = "GFX_group_infantry_icon"								textureFile = "gfx/interface/counters/divisions_large/heavy_sword_infantry_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_group_mobile_icon"								textureFile = "gfx/interface/counters/divisions_large/cavalry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_group_mobile_icon"								textureFile = "gfx/interface/counters/divisions_large/light_cavalry_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_group_armor_icon"								textureFile = "gfx/interface/counters/divisions_large/unit_medium_tank_icon.dds" noOfFrames = 2 }
 	
 	##################################
