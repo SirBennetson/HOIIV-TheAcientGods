@@ -83,7 +83,12 @@ technology_categories = {
 }
 
 technology_folders = {
+	academia_folder
 	infantry_folder
+	support_folder
+	artillery_folder
+	specialforces_folder
+	infantrydoctrine_folder
 	
 }
 

@@ -5,11 +5,59 @@ spriteTypes = {
 
 	spriteType = { name = "GFX_group_infantry_icon"								textureFile = "gfx/interface/counters/divisions_large/heavy_sword_infantry_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_group_mobile_icon"								textureFile = "gfx/interface/counters/divisions_large/light_cavalry_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_group_armor_icon"								textureFile = "gfx/interface/counters/divisions_large/unit_medium_tank_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_group_armor_icon"								textureFile = "gfx/interface/counters/divisions_large/heavy_artillery_icon.dds" noOfFrames = 2 }
 	
 	##################################
 	### Rome Mod 				   ###
 	
+	spriteType = { 
+     name = "GFX_unit_heavy_sp_artillery_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/heavy_artillery_icon.dds"  
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_heavy_sp_artillery_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_artillery_icon.dds" 
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_light_sp_artillery_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/light_artillery_icon.dds"  
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_light_sp_artillery_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_light_artillery_icon.dds" 
+     noOfFrames = 2
+   }
+	
+	spriteType = { 
+     name = "GFX_unit_heavy_artillery_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/heavy_artillery_icon.dds"  
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_heavy_artillery_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_artillery_icon.dds" 
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_light_artillery_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/light_artillery_icon.dds"  
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_light_artillery_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_light_artillery_icon.dds" 
+     noOfFrames = 2
+   }
+   
 	spriteType = { 
      name = "GFX_unit_light_sword_infantry_icon_medium"				
      textureFile = "gfx/interface/counters/divisions_large/light_sword_infantry_icon.dds"  

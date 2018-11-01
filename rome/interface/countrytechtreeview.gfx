@@ -88,7 +88,37 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_infantry_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_infantry_tab.dds"
+		textureFile = "gfx//interface/technologies/tec/techtree_infantry_tab.dds"
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_academia_folder_tab"
+		textureFile = "gfx//interface/technologies/tec/techtree_academia_tab.dds"
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_support_folder_tab"
+		textureFile = "gfx//interface/technologies/tec/techtree_support_tab.dds"
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_artillery_folder_tab"
+		textureFile = "gfx//interface/technologies/tec/techtree_artillery_tab.dds"
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_specialforces_folder_tab"
+		textureFile = "gfx//interface/technologies/tec/techtree_specialforces_tab.dds"
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_infantrydoctrine_folder_tab"
+		textureFile = "gfx//interface/technologies/tec/techtree_infantrydoctrine_tab.dds"
 		noOfFrames = 2		
 	}
 
@@ -98,12 +128,7 @@ spriteTypes = {
 		noOfFrames = 2		
 	}
 
-	spriteType = {
-		name = "GFX_artillery_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_artillery_tab.dds"
-		noOfFrames = 2		
-	}
-
+	
 	spriteType = {
 		name = "GFX_land_doctrine_folder_tab"
 		textureFile = "gfx//interface//techtree//techtree_landdoctrine_tab.dds"
@@ -265,22 +290,22 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_technology_available_item_bg"
-		textureFile = "gfx//interface//techtree//technology_available_item_bg.dds"
+		textureFile = "gfx/interface/technologies/tec/ItemFrameA.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_technology_branch_item_bg"
-		textureFile = "gfx//interface//techtree//technology_branch_item_bg.dds"
+		textureFile = "gfx/interface/technologies/tec/ItemFrameB.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_technology_unavailable_item_bg"
-		textureFile = "gfx//interface//techtree//technology_unavailable_item_bg.dds"
+		textureFile = "gfx/interface/technologies/tec/ItemFrameUA.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_technology_researched_item_bg"
-		textureFile = "gfx//interface//techtree//technology_researched_item_bg.dds"
+		textureFile = "gfx/interface/technologies/tec/ItemFrameS.dds"
 	}
 
 	frameAnimatedSpriteType = {
@@ -1227,13 +1252,7 @@ spriteTypes = {
 		name = "GFX_techtree_xor_right"
 		textureFile = "gfx//interface//techtree/techtree_xor_right.dds"
 	}
-
-	spriteType = {
-		name = "GFX_support_folder_tab"
-		textureFile = "gfx//interface//techtree/techtree_support_tab.dds"
-		noOfFrames = 2
-	}
-	
+++
 	spriteType = {
 		name = "GFX_armour_folder_tab"
 		textureFile = "gfx//interface//techtree/techtree_tank_tab.dds"
