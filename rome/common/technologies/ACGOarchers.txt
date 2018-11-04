@@ -1,0 +1,356 @@
+technologies = {
+	#Research cost:
+	# 0 = 1 - 0.8
+	# I = 2 - 1.6
+	# II = 4 - 3.2
+	# III = 8 - 6.4
+	# IV = 16 - 12.8
+	
+	
+	bow0 = {
+        ai_will_do = { factor = 320 }  
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 1 # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        enable_subunits = {
+            archers
+        }
+        
+        # Enables equipment.
+        enable_equipments = {
+            bow_equipment_0
+        }
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        #dependencies = {
+        #    <technology> = 1
+        #}
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = bow1
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "infantry_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 0 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            bow
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	
+	
+	bow1 = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 2 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia1			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        #enable_subunits = {
+        #    <unit>
+        #}
+        
+        # Enables equipment.
+        enable_equipments = {
+            bow_equipment_1
+        }
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = bow1a
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "infantry_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 4.5 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            bow
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	bow1a = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 3.2 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia2			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+       
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = bow2
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "infantry_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 10 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            bow
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	bow2 = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 4 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia2			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        #enable_subunits = {
+        #    <unit>
+        #}
+        
+        # Enables equipment.
+        enable_equipments = {
+            bow_equipment_2
+        }
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = bow2a
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "infantry_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 12
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            bow
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	bow2a = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 6.4 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia3			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = bow3
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "infantry_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 16 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            bow
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	
+	
+}

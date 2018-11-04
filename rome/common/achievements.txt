@@ -114,9 +114,7 @@ wunderwaffen = {
 	}
 	
 	happened = {
-		has_tech = nukes
-		has_tech = advanced_rocket_engines
-		has_tech = jet_engines
+		
 	}
 }
 
@@ -184,19 +182,15 @@ master_of_war = {
 		OR = {
 			#Fleet in being
 			AND = {
-				has_tech = grand_battlefleet
-				has_tech = submarine_offensive
+				
 			}
 			#Trade Interdiction
 			AND = {
-				has_tech = floating_airfield_ti
-				has_tech = combined_operations_raiding
+				
 			}
 			#Base Strike 
 			AND = {
-				has_tech = carrier_battlegroups
-				has_tech = integrated_convoy_defence_bs
-				has_tech = submarine_offensive_bs
+				
 			}
 
 		}
@@ -204,42 +198,21 @@ master_of_war = {
 		OR = {
 			#Strategic Destruction
 			AND = {
-				has_tech = infrastructure_destruction
-				has_tech = home_defence
-				has_tech = offensive_formations
-				has_tech = mass_destruction
+				
 			}			
 			#Battlefield Support
 			AND = {
-				has_tech = battlefield_support
-				has_tech = keypoint_bombing
-				has_tech = ground_support_integration
-				has_tech = forward_interception
+				
 			}			
 			#Operational Integrity
 			AND = {
-				has_tech = naval_strike_torpedo_tactics_oi
-				has_tech = carousel_bombing
-				has_tech = high_level_bombing
+				
 			}
 		}
 		
 		OR = {
 			#Mobile Warfare
-			has_tech = werwolf_guerillas
-			has_tech = modern_blitzkrieg
-
-			#Superior Firepower
-			has_tech = air_land_battle
-			has_tech = shock_and_awe
-
-			#Grand Battleplan
-			has_tech = c3i_theory
-			has_tech = infiltration_in_depth
-
-			#Mass Assault
-			has_tech = continuous_offensive
-			has_tech = guerilla_warfare
+			
 		}
 	}
 }
@@ -288,7 +261,7 @@ poland_can_into_space = {
 	}
 	
 	happened = {
-		has_tech = advanced_rocket_engines
+		
 	}
 }
 
@@ -1352,8 +1325,7 @@ tojo_shot_first = {
 	}
 	
 	happened = {
-		USA = { NOT = { has_tech = nukes } }
-		has_country_flag = achievement_tojo_shot_first
+		
 	}
 }
 

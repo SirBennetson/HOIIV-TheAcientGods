@@ -9,22 +9,93 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	focus = {
-		id = army_effort
+		id = g_academia1
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 0
 		cost = 10
 
 		available_if_capitulated = yes
-
+		
+		available = {
+			NOT = { has_air_experience < 100 }
+			NOT = { has_tech = academia1 }
+			
+		}
 		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 1
-				category = land_doctrine
-			}
+			air_experience = -100
+			set_technology  = {	academia1 = 1}
+			
 		}
 	}
+	
+	focus = {
+		id = g_academia2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = {
+        focus = g_academia1
+		}
+		available_if_capitulated = yes
+		
+		available = {
+			NOT = { has_air_experience < 500 }
+			NOT = { has_tech = academia2 }
+			
+		}
+		completion_reward = {
+			air_experience = -500
+			set_technology  = {	academia2 = 1}
+			
+		}
+	}
+	
+	focus = {
+		id = g_academia3
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 2
+		cost = 10
+		prerequisite = {
+        focus = g_academia2
+		}
+		available_if_capitulated = yes
+		
+		available = {
+			NOT = { has_air_experience < 500 }
+			NOT = { has_tech = academia3 }
+			
+		}
+		completion_reward = {
+			air_experience = -500
+			set_technology  = {	academia3 = 1}
+			
+		}
+	}
+	
+	focus = {
+		id = g_academia4
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 3
+		cost = 10
+		prerequisite = {
+        focus = g_academia3
+		}
+		available_if_capitulated = yes
+		
+		available = {
+			NOT = { has_air_experience < 500 }
+			NOT = { has_tech = academia4 }
+			
+		}
+		completion_reward = {
+			air_experience = -500
+			set_technology  = {	academia4 = 1}
+			
+		}
+	}
+}
 

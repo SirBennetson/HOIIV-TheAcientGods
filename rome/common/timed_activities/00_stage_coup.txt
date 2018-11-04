@@ -1,0 +1,6 @@
+stage_coup = {
+	equipment_need = {
+		sword_equipment = 1000
+		spear_equipment = 1000
+	}
+}

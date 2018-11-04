@@ -11,6 +11,78 @@ spriteTypes = {
 	### Rome Mod 				   ###
 	
 	spriteType = { 
+     name = "GFX_unit_logistics_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/logistics_icon.dds"  
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_logistics_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_logistics_icon.dds" 
+     noOfFrames = 2
+   }
+	
+	spriteType = { 
+     name = "GFX_unit_siege_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/siege_icon.dds"  
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_siege_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_siege_icon.dds" 
+     noOfFrames = 2
+   }
+	
+	spriteType = { 
+     name = "GFX_unit_field_hospital_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/field_hospital_icon.dds"  
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_field_hospital_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_field_hospital_icon.dds" 
+     noOfFrames = 2
+   }
+	
+	spriteType = { 
+     name = "GFX_unit_signal_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/signal_icon.dds"  
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_signal_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_signal_icon.dds" 
+     noOfFrames = 2
+   }
+	
+	spriteType = { 
+     name = "GFX_unit_recon_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/recon_icon.dds"  
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_recon_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_recon_icon.dds" 
+     noOfFrames = 2
+   }
+	
+	spriteType = { 
+     name = "GFX_unit_builder_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/builder_icon.dds"  
+     noOfFrames = 2
+   }
+   
+   spriteType = { 
+     name = "GFX_unit_builder_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_builder_icon.dds" 
+     noOfFrames = 2
+   }
+	
+	spriteType = { 
      name = "GFX_unit_heavy_sp_artillery_icon_medium"				
      textureFile = "gfx/interface/counters/divisions_large/heavy_artillery_icon.dds"  
      noOfFrames = 2

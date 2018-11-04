@@ -1,0 +1,147 @@
+technologies = {
+	#Research cost:
+	# 0 = 1 - 0.8
+	# I = 2 - 1.6
+	# II = 4 - 3.2
+	# III = 8 - 6.4
+	# IV = 16 - 12.
+	siege1 = {
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 2 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia1			}		} # Cost in time, where 1 is the default research time length.
+        
+        folder = {
+            name = "support_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 0 
+            }
+        }
+		enable_subunits = {
+            siege
+        }
+		path = {
+            leads_to_tech = siege1a
+		}
+        # Which technology categories apply to this technology.
+        categories = {
+            support
+        }
+        # Weighting for the AI to pick the technology
+        
+        
+    }
+	
+	siege1a = {
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 1.6 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia1			}		} # Cost in time, where 1 is the default research time length.
+        
+        folder = {
+            name = "support_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 4.5 
+            }
+        }
+		
+		path = {
+            leads_to_tech = siege2
+		}
+        # Which technology categories apply to this technology.
+        categories = {
+            support
+        }
+        # Weighting for the AI to pick the technology
+        
+        
+    }
+	
+	siege2 = {
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 3.2 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia2			}		} # Cost in time, where 1 is the default research time length.
+        
+        folder = {
+            name = "support_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 10 
+            }
+        }
+		
+		path = {
+            leads_to_tech = siege3
+		}
+        # Which technology categories apply to this technology.
+        categories = {
+            support
+        }
+        # Weighting for the AI to pick the technology
+        
+        
+    }
+	siege3 = {
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 6.4 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia3			}		} # Cost in time, where 1 is the default research time length.
+        
+        folder = {
+            name = "support_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 16.5 
+            }
+        }
+		
+		path = {
+            leads_to_tech = siege4
+		}
+        # Which technology categories apply to this technology.
+        categories = {
+            support
+        }
+        # Weighting for the AI to pick the technology
+        
+        
+    }
+	siege4 = {
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 12.8 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia4			}		} # Cost in time, where 1 is the default research time length.
+        
+        folder = {
+            name = "support_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 22 
+            }
+        }
+		
+		#path = {
+        #    leads_to_tech = siege 2
+		#}
+        # Which technology categories apply to this technology.
+        categories = {
+            support
+        }
+        # Weighting for the AI to pick the technology
+        
+        
+    }
+}

@@ -1,0 +1,594 @@
+technologies = {
+	
+	lartillery1 = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 2 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia1			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        enable_subunits = {
+            light_artillery
+        }
+        
+        # Enables equipment.
+        enable_equipments = {
+            light_artillery_equipment_0
+        }
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+             
+        }
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = lartillery1a
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 0 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            artillery
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	lartillery1a = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 1.6 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia1			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        enable_subunits = {
+            light_sp_artillery
+        }
+        
+        # Enables equipment.
+        #enable_equipments = {
+        #    light_artillery_equipment_0
+        #}
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+             
+        }
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = lartillery2
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 2 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            artillery
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	lartillery2 = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 4 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia2			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        #enable_subunits = {
+        #    light_sp_artillery
+        #}
+        
+        # Enables equipment.
+        enable_equipments = {
+            light_artillery_equipment_1
+        }
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+            academia2 = 1
+        }
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = lartillery2a
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 4 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            artillery
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	lartillery2a = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 3.2 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia2			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        #enable_subunits = {
+        #    light_sp_artillery
+        #}
+        
+        # Enables equipment.
+        #enable_equipments = {
+        #    light_artillery_equipment_0
+        #}
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+            academia2 = 1
+        }
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = lartillery3
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 6 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            artillery
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	lartillery3 = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 8 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia3			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        #enable_subunits = {
+        #    light_sp_artillery
+        #}
+        
+        # Enables equipment.
+        enable_equipments = {
+            light_artillery_equipment_2
+        }
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+             
+        }
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = lartillery3a
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 8 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            artillery
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	lartillery3a = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 6.4 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia3			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        enable_subunits = {
+            light_sp_artillery
+        }
+        
+        # Enables equipment.
+        #enable_equipments = {
+        #    light_artillery_equipment_0
+        #}
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+            academia3 = 1
+        }
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = lartillery4
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 10 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            artillery
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	lartillery4 = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 16 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia4			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        #enable_subunits = {
+        #    light_sp_artillery
+        #}
+        
+        # Enables equipment.
+        enable_equipments = {
+            light_artillery_equipment_3
+        }
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+             
+        }
+               
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = lartillery4a
+		}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 12 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            artillery
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	
+	lartillery4a = {
+           
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no         
+        research_cost = 12.8 		ai_will_do = {			factor = 0			modifier = {				factor = 1.0				has_tech = academia4			}		} # Cost in time, where 1 is the default research time length.
+        
+        # Effects to apply on technology completion
+        #on_research_complete = {
+        #    <effects>
+        #}
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        #<unit> = {
+        #    <attribute> = <value> # Required!
+        #    
+        #    <terrain> = {
+        #        <attribute> <value>
+        #    }
+        #}
+        
+        # Alter unit attribute for category
+        #<category> = {
+        #    <attribute> <value>
+        #}
+        
+        # Enable subunits
+        enable_subunits = {
+            light_sp_artillery
+        }
+        
+        # Enables equipment.
+        #enable_equipments = {
+        #    light_artillery_equipment_0
+        #}
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+            academia4 = 1
+        }
+               
+        # Multiple allowed. Controls the links between technologies.
+        #path = {
+        #    leads_to_tech = lartillery4
+		#}
+               
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 14 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            artillery
+        }
+        
+        # Weighting for the AI to pick the technology
+        
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+}

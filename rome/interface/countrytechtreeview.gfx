@@ -1252,7 +1252,7 @@ spriteTypes = {
 		name = "GFX_techtree_xor_right"
 		textureFile = "gfx//interface//techtree/techtree_xor_right.dds"
 	}
-++
+
 	spriteType = {
 		name = "GFX_armour_folder_tab"
 		textureFile = "gfx//interface//techtree/techtree_tank_tab.dds"

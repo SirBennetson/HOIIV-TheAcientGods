@@ -1,0 +1,317 @@
+technologies = {
+	academia0 = {
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no    # Consider this technology a doctrine technology.
+        research_cost = 1 # Cost in time, where 1 is the default research time length.
+        show_effect_as_desc = yes   # Displays effects in description.
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        dependencies = {
+            academia4 = 1
+        }
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 0
+        }
+        
+    }
+	academia1 = {
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no          # Consider this technology a doctrine technology.
+        research_cost = 1 # Cost in time, where 1 is the default research time length.
+        research_time_factor = -0.5
+		show_effect_as_desc = yes   # Displays effects in description.
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        #dependencies = {
+        #    <technology> = 1
+        #}
+        # Limits technology (and linked technologies) visibility if trigger is false. Used for DLC checks.
+        #allow_branch = {
+        #    <triggers>
+        #}
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = academia2
+        #    research_cost_coeff = <float>
+        }
+        # Used to either-or with other technologies. 
+        #XOR = {
+        #    <technology>
+        #}
+        # Controls which folder (tab) the technology appears under.
+		dependencies = {
+            academia0 = 1
+        }
+		enable_equipments = {
+            research_equipment_0
+        }
+        folder = {
+            name = "academia_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 0 
+            }
+        }
+		folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 0
+            }
+        }
+		folder = { 
+			name = "infantry_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 0 
+            }
+        }
+		folder = { 
+			name = "support_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 0 
+            }
+        }
+        # Which technology categories apply to this technology.
+        #categories = {
+        #    <categories>
+        #}
+        # Weighting for the AI to pick the technology
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	academia2 = {
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no          # Consider this technology a doctrine technology.
+        research_cost = 1 # Cost in time, where 1 is the default research time length.
+        #start_year = <year>     # Which year this technology stops receiving ahead-of-time penalities.
+        research_time_factor = -0.25
+		show_effect_as_desc = yes   # Displays effects in description.
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+            academia0 = 1
+        }
+        # Limits technology (and linked technologies) visibility if trigger is false. Used for DLC checks.
+        #allow_branch = {
+        #    <triggers>
+        #}
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = academia3
+        #    research_cost_coeff = <float>
+        }
+        # Used to either-or with other technologies. 
+        #XOR = {
+        #    <technology>
+        #}
+        # Controls which folder (tab) the technology appears under.
+        enable_equipments = {
+            research_equipment_1
+        }
+		folder = {
+            name = "academia_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 4 
+            }
+        }
+		folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 4
+            }
+        }
+		folder = { 
+			name = "infantry_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 6
+            }
+        }
+		folder = { 
+			name = "support_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 6
+            }
+        }
+        # Which technology categories apply to this technology.
+        #categories = {
+        #    <categories>
+        #}
+        # Weighting for the AI to pick the technology
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	academia3 = {
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no          # Consider this technology a doctrine technology.
+        research_cost = 1 # Cost in time, where 1 is the default research time length.
+        #start_year = <year>     # Which year this technology stops receiving ahead-of-time penalities.
+        research_time_factor = -0.125
+		show_effect_as_desc = yes   # Displays effects in description.
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+            academia0 = 1
+        }
+        # Limits technology (and linked technologies) visibility if trigger is false. Used for DLC checks.
+        #allow_branch = {
+        #    <triggers>
+        #}
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = academia4
+        #    research_cost_coeff = <float>
+        }
+        # Used to either-or with other technologies. 
+        #XOR = {
+        #    <technology>
+        #}
+        # Controls which folder (tab) the technology appears under.
+        enable_equipments = {
+            research_equipment_2
+        }
+		folder = {
+            name = "academia_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 8
+            }
+        }
+		folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 8
+            }
+        }
+		folder = { 
+			name = "infantry_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 12 
+            }
+        }
+		folder = { 
+			name = "support_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 12 
+            }
+        }
+        # Which technology categories apply to this technology.
+        #categories = {
+        #    <categories>
+        #}
+        # Weighting for the AI to pick the technology
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+	academia4 = {
+        on_research_complete = { 
+			air_experience = 10 
+		} 
+		doctrine = no          # Consider this technology a doctrine technology.
+        research_cost = 1 # Cost in time, where 1 is the default research time length.
+        #start_year = <year>     # Which year this technology stops receiving ahead-of-time penalities.
+        research_time_factor = -0.0625
+		show_effect_as_desc = yes   # Displays effects in description.
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+            academia0 = 1
+        }
+        # Limits technology (and linked technologies) visibility if trigger is false. Used for DLC checks.
+        #allow_branch = {
+        #    <triggers>
+        #}
+        # Multiple allowed. Controls the links between technologies.
+        #path = {
+        #    leads_to_tech = <technology>
+        #    research_cost_coeff = <float>
+        #}
+        # Used to either-or with other technologies. 
+        #XOR = {
+        #    <technology>
+        #}
+        # Controls which folder (tab) the technology appears under.
+        enable_equipments = {
+            research_equipment_3
+        }
+		folder = {
+            name = "academia_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 12 
+            }
+        }
+		folder = {
+            name = "artillery_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 12
+            }
+        }
+		folder = {
+			name = "infantry_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 18
+            }
+        }
+		folder = {
+			name = "support_folder" # Found in countrytechtreeview.gui
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 18
+            }
+        }
+        # Which technology categories apply to this technology.
+        #categories = {
+        #    <categories>
+        #}
+        # Weighting for the AI to pick the technology
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+}

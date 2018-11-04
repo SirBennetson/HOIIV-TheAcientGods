@@ -42,7 +42,7 @@ equipments = {
 		year = 0
 	
 		archetype = armor_equipment
-		active = yes
+		
 		priority = 05
 		visual_level = 0
 		

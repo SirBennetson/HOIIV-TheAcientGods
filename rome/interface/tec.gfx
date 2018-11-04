@@ -3,7 +3,12 @@ spriteTypes = {
 	### Backgrounds ###
 	spriteType = {
     name = "GFX_academia_background"
-    texturefile = "gfx/interface/technologies/tec/Erechtheum_Acropolis_Athens.dds"
+    texturefile = "gfx/interface/technologies/tec/academia_bg.dds"
+	}
+	
+	spriteType = {
+    name = "GFX_infantry_background"
+    texturefile = "gfx/interface/technologies/tec/infantry_bg.dds"
 	}
 	
 	### academia pictures ###
@@ -12,19 +17,16 @@ spriteTypes = {
     texturefile = "gfx/interface/technologies/tec/academia1.dds"
 	}
 	
-	### academia pictures ###
 	spriteType = {
     name = "GFX_academia2_medium"
     texturefile = "gfx/interface/technologies/tec/academia2.dds"
 	}
 	
-	### academia pictures ###
 	spriteType = {
     name = "GFX_academia3_medium"
     texturefile = "gfx/interface/technologies/tec/academia3.dds"
 	}
 	
-	### academia pictures ###
 	spriteType = {
     name = "GFX_academia4_medium"
     texturefile = "gfx/interface/technologies/tec/academia4.dds"
